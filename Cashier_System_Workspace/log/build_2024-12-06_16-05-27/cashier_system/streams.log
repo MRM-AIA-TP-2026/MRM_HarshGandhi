@@ -1,0 +1,36 @@
+[0.009s] Invoking command in '/home/harsh/ros2_new/build/cashier_system': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/harsh/ros2_new/build/cashier_system -- -j16 -l16
+[0.055s] [  8%] Built target cashier_system__cpp
+[0.055s] [ 10%] Built target cashier_system__rosidl_generator_c
+[0.063s] [ 10%] Built target ament_cmake_python_copy_cashier_system
+[0.072s] [ 51%] Built target cashier_system__rosidl_typesupport_introspection_c
+[0.072s] [ 51%] Built target cashier_system__rosidl_typesupport_c
+[0.072s] [ 51%] Built target cashier_system__rosidl_typesupport_fastrtps_c
+[0.073s] [ 51%] Built target cashier_system__rosidl_typesupport_cpp
+[0.073s] [ 51%] Built target cashier_system__rosidl_typesupport_fastrtps_cpp
+[0.073s] [ 59%] Built target cashier_system__rosidl_typesupport_introspection_cpp
+[0.082s] [35m[1mConsolidate compiler generated dependencies of target cashier_node[0m
+[0.094s] [ 64%] [32mBuilding CXX object CMakeFiles/bill_publisher_node.dir/src/bill_publisher_node.cpp.o[0m
+[0.094s] [ 67%] Built target bill_listener_node
+[0.097s] [ 72%] Built target cashier_node
+[0.112s] [ 72%] Built target cashier_system
+[0.131s] [ 75%] Built target cashier_system__py
+[0.151s] [ 81%] Built target cashier_system__rosidl_generator_py
+[0.170s] [ 97%] Built target cashier_system__rosidl_typesupport_c__pyext
+[0.170s] [ 97%] Built target cashier_system__rosidl_typesupport_fastrtps_c__pyext
+[0.170s] [ 97%] Built target cashier_system__rosidl_typesupport_introspection_c__pyext
+[0.242s] running egg_info
+[0.242s] writing cashier_system.egg-info/PKG-INFO
+[0.242s] writing dependency_links to cashier_system.egg-info/dependency_links.txt
+[0.242s] writing top-level names to cashier_system.egg-info/top_level.txt
+[0.244s] reading manifest file 'cashier_system.egg-info/SOURCES.txt'
+[0.244s] writing manifest file 'cashier_system.egg-info/SOURCES.txt'
+[0.269s] [ 97%] Built target ament_cmake_python_build_cashier_system_egg
+[1.858s] [01m[K/home/harsh/ros2_new/src/cashier_system/src/bill_publisher_node.cpp:[m[K In constructor ‘[01m[KBillPublisherNode::BillPublisherNode()[m[K’:
+[1.858s] [01m[K/home/harsh/ros2_new/src/cashier_system/src/bill_publisher_node.cpp:9:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kbill[m[K’ was not declared in this scope; did you mean ‘[01m[Kkill[m[K’?
+[1.858s]     9 |         while([01;31m[Kbill[m[K.quantity>0){
+[1.858s]       |               [01;31m[K^~~~[m[K
+[1.858s]       |               [32m[Kkill[m[K
+[2.462s] gmake[2]: *** [CMakeFiles/bill_publisher_node.dir/build.make:76: CMakeFiles/bill_publisher_node.dir/src/bill_publisher_node.cpp.o] Error 1
+[2.462s] gmake[1]: *** [CMakeFiles/Makefile2:597: CMakeFiles/bill_publisher_node.dir/all] Error 2
+[2.462s] gmake: *** [Makefile:146: all] Error 2
+[2.465s] Invoked command in '/home/harsh/ros2_new/build/cashier_system' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/harsh/ros2_new/build/cashier_system -- -j16 -l16

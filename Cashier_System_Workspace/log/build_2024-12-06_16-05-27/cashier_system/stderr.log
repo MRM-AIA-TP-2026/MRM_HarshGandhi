@@ -1,0 +1,8 @@
+[01m[K/home/harsh/ros2_new/src/cashier_system/src/bill_publisher_node.cpp:[m[K In constructor ‘[01m[KBillPublisherNode::BillPublisherNode()[m[K’:
+[01m[K/home/harsh/ros2_new/src/cashier_system/src/bill_publisher_node.cpp:9:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kbill[m[K’ was not declared in this scope; did you mean ‘[01m[Kkill[m[K’?
+    9 |         while([01;31m[Kbill[m[K.quantity>0){
+      |               [01;31m[K^~~~[m[K
+      |               [32m[Kkill[m[K
+gmake[2]: *** [CMakeFiles/bill_publisher_node.dir/build.make:76: CMakeFiles/bill_publisher_node.dir/src/bill_publisher_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:597: CMakeFiles/bill_publisher_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,34 @@
+[35m[1mConsolidate compiler generated dependencies of target hello_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/hello_node.dir/src/helloworld.cpp.o[0m
+[01m[K/home/harsh/ros2_new/src/hello_world/src/helloworld.cpp:19:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   19 | }
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+[01m[K/home/harsh/ros2_new/src/hello_world/src/helloworld.cpp:[m[K In constructor ‘[01m[KHelloWorldNode::HelloWorldNode()[m[K’:
+[01m[K/home/harsh/ros2_new/src/hello_world/src/helloworld.cpp:9:55:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KHelloWorldNode[m[K’ does not have any field named ‘[01m[Kcounter_[m[K’
+    9 |         HelloWorldNode() : Node("hello_world_node") , [01;31m[Kcounter_[m[K(1){
+      |                                                       [01;31m[K^~~~~~~~[m[K
+[01m[K/home/harsh/ros2_new/src/hello_world/src/helloworld.cpp:11:30:[m[K [01;31m[Kerror: [m[K‘[01m[Ksecond[m[K’ is not a member of ‘[01m[Kstd::chrono[m[K’; did you mean ‘[01m[Kseconds[m[K’?
+   11 |                 std::chrono::[01;31m[Ksecond[m[K(1),
+      |                              [01;31m[K^~~~~~[m[K
+      |                              [32m[Kseconds[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/harsh/ros2_new/src/hello_world/src/helloworld.cpp:5[m[K:
+[01m[K/home/harsh/ros2_new/src/hello_world/src/helloworld.cpp:[m[K In member function ‘[01m[Kvoid HelloWorldNode::print_hello()[m[K’:
+[01m[K/home/harsh/ros2_new/src/hello_world/src/helloworld.cpp:17:64:[m[K [01;31m[Kerror: [m[K‘[01m[Kcounter_[m[K’ was not declared in this scope
+   17 |          RCLCPP_INFO(this->get_logger(), "Hello, World %d", [01;31m[Kcounter_[m[K++);
+      |                                                             [01;31m[K^~~~~~~~[m[K
+
+gmake[2]: *** [CMakeFiles/hello_node.dir/build.make:76: CMakeFiles/hello_node.dir/src/helloworld.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/hello_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

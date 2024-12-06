@@ -1,0 +1,21 @@
+[35m[1mConsolidate compiler generated dependencies of target price_subscriber_node[0m
+[ 50%] Built target hello_node
+[100%] Built target price_subscriber_node
+-- Install configuration: ""
+-- Up-to-date: /home/harsh/ros2_new/install/hello_world/lib/hello_world/hello_node
+-- Up-to-date: /home/harsh/ros2_new/install/hello_world/lib/hello_world/price_subscriber_node
+-- Up-to-date: /home/harsh/ros2_new/install/hello_world/share/ament_index/resource_index/package_run_dependencies/hello_world
+-- Up-to-date: /home/harsh/ros2_new/install/hello_world/share/ament_index/resource_index/parent_prefix_path/hello_world
+-- Up-to-date: /home/harsh/ros2_new/install/hello_world/share/hello_world/environment/ament_prefix_path.sh
+-- Up-to-date: /home/harsh/ros2_new/install/hello_world/share/hello_world/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/harsh/ros2_new/install/hello_world/share/hello_world/environment/path.sh
+-- Up-to-date: /home/harsh/ros2_new/install/hello_world/share/hello_world/environment/path.dsv
+-- Up-to-date: /home/harsh/ros2_new/install/hello_world/share/hello_world/local_setup.bash
+-- Up-to-date: /home/harsh/ros2_new/install/hello_world/share/hello_world/local_setup.sh
+-- Up-to-date: /home/harsh/ros2_new/install/hello_world/share/hello_world/local_setup.zsh
+-- Up-to-date: /home/harsh/ros2_new/install/hello_world/share/hello_world/local_setup.dsv
+-- Installing: /home/harsh/ros2_new/install/hello_world/share/hello_world/package.dsv
+-- Up-to-date: /home/harsh/ros2_new/install/hello_world/share/ament_index/resource_index/packages/hello_world
+-- Up-to-date: /home/harsh/ros2_new/install/hello_world/share/hello_world/cmake/hello_worldConfig.cmake
+-- Up-to-date: /home/harsh/ros2_new/install/hello_world/share/hello_world/cmake/hello_worldConfig-version.cmake
+-- Up-to-date: /home/harsh/ros2_new/install/hello_world/share/hello_world/package.xml

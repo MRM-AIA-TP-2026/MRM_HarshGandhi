@@ -1,0 +1,11 @@
+[0.009s] Invoking command in '/home/harsh/ros2_new/build/hello_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/harsh/ros2_new/build/hello_world -- -j16 -l16
+[0.045s] [35m[1mConsolidate compiler generated dependencies of target hello_node[0m
+[0.058s] [ 50%] [32mBuilding CXX object CMakeFiles/hello_node.dir/src/helloworld.cpp.o[0m
+[1.632s] [01m[K/home/harsh/ros2_new/src/hello_world/src/helloworld.cpp:[m[K In member function ‘[01m[Kvoid HelloWorldNode::print_hello()[m[K’:
+[1.632s] [01m[K/home/harsh/ros2_new/src/hello_world/src/helloworld.cpp:22:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kelse[m[K’ without a previous ‘[01m[Kif[m[K’
+[1.632s]    22 |         }[01;31m[Kelse[m[K{
+[1.632s]       |          [01;31m[K^~~~[m[K
+[1.968s] gmake[2]: *** [CMakeFiles/hello_node.dir/build.make:76: CMakeFiles/hello_node.dir/src/helloworld.cpp.o] Error 1
+[1.968s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/hello_node.dir/all] Error 2
+[1.968s] gmake: *** [Makefile:146: all] Error 2
+[1.971s] Invoked command in '/home/harsh/ros2_new/build/hello_world' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/harsh/ros2_new/build/hello_world -- -j16 -l16

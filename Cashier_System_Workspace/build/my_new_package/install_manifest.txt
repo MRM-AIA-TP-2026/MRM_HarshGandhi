@@ -1,0 +1,16 @@
+/home/harsh/ros2_new/install/my_new_package/lib/my_new_package/my_new_package_node
+/home/harsh/ros2_new/install/my_new_package/share/ament_index/resource_index/package_run_dependencies/my_new_package
+/home/harsh/ros2_new/install/my_new_package/share/ament_index/resource_index/parent_prefix_path/my_new_package
+/home/harsh/ros2_new/install/my_new_package/share/my_new_package/environment/ament_prefix_path.sh
+/home/harsh/ros2_new/install/my_new_package/share/my_new_package/environment/ament_prefix_path.dsv
+/home/harsh/ros2_new/install/my_new_package/share/my_new_package/environment/path.sh
+/home/harsh/ros2_new/install/my_new_package/share/my_new_package/environment/path.dsv
+/home/harsh/ros2_new/install/my_new_package/share/my_new_package/local_setup.bash
+/home/harsh/ros2_new/install/my_new_package/share/my_new_package/local_setup.sh
+/home/harsh/ros2_new/install/my_new_package/share/my_new_package/local_setup.zsh
+/home/harsh/ros2_new/install/my_new_package/share/my_new_package/local_setup.dsv
+/home/harsh/ros2_new/install/my_new_package/share/my_new_package/package.dsv
+/home/harsh/ros2_new/install/my_new_package/share/ament_index/resource_index/packages/my_new_package
+/home/harsh/ros2_new/install/my_new_package/share/my_new_package/cmake/my_new_packageConfig.cmake
+/home/harsh/ros2_new/install/my_new_package/share/my_new_package/cmake/my_new_packageConfig-version.cmake
+/home/harsh/ros2_new/install/my_new_package/share/my_new_package/package.xml

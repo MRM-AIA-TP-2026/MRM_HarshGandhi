@@ -1,0 +1,155 @@
+[0.009s] Invoking command in '/home/harsh/ros2_new/build/cashier_system': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/harsh/ros2_new/build/cashier_system -- -j16 -l16
+[0.051s] [  2%] Built target cashier_system__cpp
+[0.053s] [ 10%] Built target cashier_system__rosidl_generator_c
+[0.059s] [ 10%] Built target ament_cmake_python_copy_cashier_system
+[0.068s] [ 29%] Built target cashier_system__rosidl_typesupport_c
+[0.068s] [ 37%] Built target cashier_system__rosidl_typesupport_cpp
+[0.068s] [ 40%] Built target cashier_system__rosidl_typesupport_fastrtps_cpp
+[0.068s] [ 43%] Built target cashier_system__rosidl_typesupport_introspection_c
+[0.068s] [ 51%] Built target cashier_system__rosidl_typesupport_introspection_cpp
+[0.068s] [ 59%] Built target cashier_system__rosidl_typesupport_fastrtps_c
+[0.089s] [ 70%] [32mBuilding CXX object CMakeFiles/cashier_node.dir/src/cashier_node.cpp.o[0m
+[0.089s] [ 72%] Built target bill_listener_node
+[0.089s] [ 72%] Built target bill_publisher_node
+[0.106s] [ 72%] Built target cashier_system
+[0.125s] [ 75%] Built target cashier_system__py
+[0.147s] [ 81%] Built target cashier_system__rosidl_generator_py
+[0.165s] [ 97%] Built target cashier_system__rosidl_typesupport_fastrtps_c__pyext
+[0.165s] [ 97%] Built target cashier_system__rosidl_typesupport_introspection_c__pyext
+[0.165s] [ 97%] Built target cashier_system__rosidl_typesupport_c__pyext
+[0.225s] running egg_info
+[0.225s] writing cashier_system.egg-info/PKG-INFO
+[0.226s] writing dependency_links to cashier_system.egg-info/dependency_links.txt
+[0.226s] writing top-level names to cashier_system.egg-info/top_level.txt
+[0.227s] reading manifest file 'cashier_system.egg-info/SOURCES.txt'
+[0.227s] writing manifest file 'cashier_system.egg-info/SOURCES.txt'
+[0.251s] [ 97%] Built target ament_cmake_python_build_cashier_system_egg
+[1.719s] [01m[K/home/harsh/ros2_new/src/cashier_system/src/cashier_node.cpp:[m[K In member function ‘[01m[Kvoid CashierNode::billCallback(cashier_system::msg::Bill_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.719s] [01m[K/home/harsh/ros2_new/src/cashier_system/src/cashier_node.cpp:31:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kcashier_system::msg::Bill_<std::allocator<void> >::_quantity_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.719s]    31 |         if ([01;35m[Kcurrent_inventory >= msg->quantity[m[K) {
+[1.719s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[5.964s] [100%] [32m[1mLinking CXX executable cashier_node[0m
+[6.224s] [100%] Built target cashier_node
+[6.235s] Invoked command in '/home/harsh/ros2_new/build/cashier_system' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/harsh/ros2_new/build/cashier_system -- -j16 -l16
+[6.245s] Invoking command in '/home/harsh/ros2_new/build/cashier_system': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/harsh/ros2_new/build/cashier_system
+[6.250s] -- Install configuration: ""
+[6.250s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/share/ament_index/resource_index/rosidl_interfaces/cashier_system
+[6.250s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/include/cashier_system/cashier_system
+[6.251s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/include/cashier_system/cashier_system/msg
+[6.251s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/include/cashier_system/cashier_system/msg/rosidl_generator_c__visibility_control.h
+[6.251s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/include/cashier_system/cashier_system/msg/bill.h
+[6.251s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/include/cashier_system/cashier_system/msg/detail
+[6.251s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/include/cashier_system/cashier_system/msg/detail/bill__type_support.h
+[6.251s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/include/cashier_system/cashier_system/msg/detail/bill__functions.h
+[6.251s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/include/cashier_system/cashier_system/msg/detail/bill__functions.c
+[6.251s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/include/cashier_system/cashier_system/msg/detail/bill__struct.h
+[6.251s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/share/cashier_system/environment/library_path.sh
+[6.251s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/share/cashier_system/environment/library_path.dsv
+[6.252s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/lib/libcashier_system__rosidl_generator_c.so
+[6.252s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/include/cashier_system/cashier_system
+[6.252s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/include/cashier_system/cashier_system/msg
+[6.252s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/include/cashier_system/cashier_system/msg/detail
+[6.252s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/include/cashier_system/cashier_system/msg/detail/bill__rosidl_typesupport_fastrtps_c.h
+[6.252s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/include/cashier_system/cashier_system/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.252s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/lib/libcashier_system__rosidl_typesupport_fastrtps_c.so
+[6.252s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/include/cashier_system/cashier_system
+[6.252s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/include/cashier_system/cashier_system/msg
+[6.252s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/include/cashier_system/cashier_system/msg/detail
+[6.252s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/include/cashier_system/cashier_system/msg/detail/bill__struct.hpp
+[6.252s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/include/cashier_system/cashier_system/msg/detail/bill__builder.hpp
+[6.252s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/include/cashier_system/cashier_system/msg/detail/bill__traits.hpp
+[6.252s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/include/cashier_system/cashier_system/msg/bill.hpp
+[6.252s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/include/cashier_system/cashier_system
+[6.252s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/include/cashier_system/cashier_system/msg
+[6.252s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/include/cashier_system/cashier_system/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.252s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/include/cashier_system/cashier_system/msg/detail
+[6.252s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/include/cashier_system/cashier_system/msg/detail/bill__rosidl_typesupport_fastrtps_cpp.hpp
+[6.252s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/include/cashier_system/cashier_system/msg/detail/dds_fastrtps
+[6.252s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/lib/libcashier_system__rosidl_typesupport_fastrtps_cpp.so
+[6.252s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/include/cashier_system/cashier_system
+[6.252s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/include/cashier_system/cashier_system/msg
+[6.252s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/include/cashier_system/cashier_system/msg/detail
+[6.252s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/include/cashier_system/cashier_system/msg/detail/bill__type_support.c
+[6.252s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/include/cashier_system/cashier_system/msg/detail/bill__rosidl_typesupport_introspection_c.h
+[6.253s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/include/cashier_system/cashier_system/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.253s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/lib/libcashier_system__rosidl_typesupport_introspection_c.so
+[6.253s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/lib/libcashier_system__rosidl_typesupport_c.so
+[6.253s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/include/cashier_system/cashier_system
+[6.253s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/include/cashier_system/cashier_system/msg
+[6.253s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/include/cashier_system/cashier_system/msg/detail
+[6.253s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/include/cashier_system/cashier_system/msg/detail/bill__rosidl_typesupport_introspection_cpp.hpp
+[6.253s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/include/cashier_system/cashier_system/msg/detail/bill__type_support.cpp
+[6.253s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/lib/libcashier_system__rosidl_typesupport_introspection_cpp.so
+[6.253s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/lib/libcashier_system__rosidl_typesupport_cpp.so
+[6.253s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/share/cashier_system/environment/pythonpath.sh
+[6.253s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/share/cashier_system/environment/pythonpath.dsv
+[6.253s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/local/lib/python3.10/dist-packages/cashier_system-0.0.1-py3.10.egg-info
+[6.253s] -- Installing: /home/harsh/ros2_new/install/cashier_system/local/lib/python3.10/dist-packages/cashier_system-0.0.1-py3.10.egg-info/top_level.txt
+[6.253s] -- Installing: /home/harsh/ros2_new/install/cashier_system/local/lib/python3.10/dist-packages/cashier_system-0.0.1-py3.10.egg-info/dependency_links.txt
+[6.253s] -- Installing: /home/harsh/ros2_new/install/cashier_system/local/lib/python3.10/dist-packages/cashier_system-0.0.1-py3.10.egg-info/PKG-INFO
+[6.253s] -- Installing: /home/harsh/ros2_new/install/cashier_system/local/lib/python3.10/dist-packages/cashier_system-0.0.1-py3.10.egg-info/SOURCES.txt
+[6.253s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/local/lib/python3.10/dist-packages/cashier_system
+[6.253s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/local/lib/python3.10/dist-packages/cashier_system/_cashier_system_s.ep.rosidl_typesupport_introspection_c.c
+[6.253s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/local/lib/python3.10/dist-packages/cashier_system/cashier_system_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.253s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/local/lib/python3.10/dist-packages/cashier_system/_cashier_system_s.ep.rosidl_typesupport_c.c
+[6.253s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/local/lib/python3.10/dist-packages/cashier_system/libcashier_system__rosidl_generator_py.so
+[6.253s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/local/lib/python3.10/dist-packages/cashier_system/cashier_system_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.253s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/local/lib/python3.10/dist-packages/cashier_system/msg
+[6.253s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/local/lib/python3.10/dist-packages/cashier_system/msg/_bill.py
+[6.254s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/local/lib/python3.10/dist-packages/cashier_system/msg/_bill_s.c
+[6.254s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/local/lib/python3.10/dist-packages/cashier_system/msg/__init__.py
+[6.254s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/local/lib/python3.10/dist-packages/cashier_system/__init__.py
+[6.254s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/local/lib/python3.10/dist-packages/cashier_system/_cashier_system_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.254s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/local/lib/python3.10/dist-packages/cashier_system/cashier_system_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.275s] Listing '/home/harsh/ros2_new/install/cashier_system/local/lib/python3.10/dist-packages/cashier_system'...
+[6.275s] Listing '/home/harsh/ros2_new/install/cashier_system/local/lib/python3.10/dist-packages/cashier_system/msg'...
+[6.278s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/local/lib/python3.10/dist-packages/cashier_system/cashier_system_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.278s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/local/lib/python3.10/dist-packages/cashier_system/cashier_system_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.278s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/local/lib/python3.10/dist-packages/cashier_system/cashier_system_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.279s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/lib/libcashier_system__rosidl_generator_py.so
+[6.279s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/share/cashier_system/msg/Bill.idl
+[6.279s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/share/cashier_system/msg/Bill.msg
+[6.279s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/lib/cashier_system/bill_publisher_node
+[6.279s] -- Installing: /home/harsh/ros2_new/install/cashier_system/lib/cashier_system/cashier_node
+[6.282s] -- Set runtime path of "/home/harsh/ros2_new/install/cashier_system/lib/cashier_system/cashier_node" to ""
+[6.283s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/lib/cashier_system/bill_listener_node
+[6.283s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/share/ament_index/resource_index/package_run_dependencies/cashier_system
+[6.283s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/share/ament_index/resource_index/parent_prefix_path/cashier_system
+[6.283s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/share/cashier_system/environment/ament_prefix_path.sh
+[6.283s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/share/cashier_system/environment/ament_prefix_path.dsv
+[6.283s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/share/cashier_system/environment/path.sh
+[6.283s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/share/cashier_system/environment/path.dsv
+[6.283s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/share/cashier_system/local_setup.bash
+[6.283s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/share/cashier_system/local_setup.sh
+[6.284s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/share/cashier_system/local_setup.zsh
+[6.284s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/share/cashier_system/local_setup.dsv
+[6.284s] -- Installing: /home/harsh/ros2_new/install/cashier_system/share/cashier_system/package.dsv
+[6.284s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/share/ament_index/resource_index/packages/cashier_system
+[6.284s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/share/cashier_system/cmake/export_cashier_system__rosidl_generator_cExport.cmake
+[6.284s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/share/cashier_system/cmake/export_cashier_system__rosidl_generator_cExport-noconfig.cmake
+[6.284s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/share/cashier_system/cmake/export_cashier_system__rosidl_typesupport_fastrtps_cExport.cmake
+[6.284s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/share/cashier_system/cmake/export_cashier_system__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.284s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/share/cashier_system/cmake/export_cashier_system__rosidl_generator_cppExport.cmake
+[6.284s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/share/cashier_system/cmake/export_cashier_system__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.284s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/share/cashier_system/cmake/export_cashier_system__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.284s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/share/cashier_system/cmake/cashier_system__rosidl_typesupport_introspection_cExport.cmake
+[6.284s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/share/cashier_system/cmake/cashier_system__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.284s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/share/cashier_system/cmake/cashier_system__rosidl_typesupport_cExport.cmake
+[6.284s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/share/cashier_system/cmake/cashier_system__rosidl_typesupport_cExport-noconfig.cmake
+[6.284s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/share/cashier_system/cmake/cashier_system__rosidl_typesupport_introspection_cppExport.cmake
+[6.284s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/share/cashier_system/cmake/cashier_system__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.284s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/share/cashier_system/cmake/cashier_system__rosidl_typesupport_cppExport.cmake
+[6.285s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/share/cashier_system/cmake/cashier_system__rosidl_typesupport_cppExport-noconfig.cmake
+[6.285s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/share/cashier_system/cmake/export_cashier_system__rosidl_generator_pyExport.cmake
+[6.285s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/share/cashier_system/cmake/export_cashier_system__rosidl_generator_pyExport-noconfig.cmake
+[6.285s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/share/cashier_system/cmake/rosidl_cmake-extras.cmake
+[6.285s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/share/cashier_system/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.285s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/share/cashier_system/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.285s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/share/cashier_system/cmake/ament_cmake_export_libraries-extras.cmake
+[6.285s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/share/cashier_system/cmake/ament_cmake_export_targets-extras.cmake
+[6.285s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/share/cashier_system/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.285s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/share/cashier_system/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.285s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/share/cashier_system/cmake/cashier_systemConfig.cmake
+[6.285s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/share/cashier_system/cmake/cashier_systemConfig-version.cmake
+[6.285s] -- Up-to-date: /home/harsh/ros2_new/install/cashier_system/share/cashier_system/package.xml
+[6.287s] Invoked command in '/home/harsh/ros2_new/build/cashier_system' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/harsh/ros2_new/build/cashier_system

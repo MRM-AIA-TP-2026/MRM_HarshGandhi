@@ -1,0 +1,62 @@
+[ 10%] Built target cashier_system__cpp
+[ 10%] Built target cashier_system__rosidl_generator_c
+[ 10%] Built target ament_cmake_python_copy_cashier_system
+[ 43%] Built target cashier_system__rosidl_typesupport_introspection_c
+[ 43%] Built target cashier_system__rosidl_typesupport_cpp
+[ 43%] Built target cashier_system__rosidl_typesupport_c
+[ 43%] Built target cashier_system__rosidl_typesupport_fastrtps_c
+[ 54%] Built target cashier_system__rosidl_typesupport_introspection_cpp
+[ 59%] Built target cashier_system__rosidl_typesupport_fastrtps_cpp
+[35m[1mConsolidate compiler generated dependencies of target bill_publisher_node[0m
+[35m[1mConsolidate compiler generated dependencies of target cashier_node[0m
+[ 64%] Built target bill_listener_node
+[ 72%] [32mBuilding CXX object CMakeFiles/bill_publisher_node.dir/src/bill_publisher_node.cpp.o[0m
+[ 72%] Built target cashier_node
+[ 72%] Built target cashier_system
+[ 75%] Built target cashier_system__py
+[ 81%] Built target cashier_system__rosidl_generator_py
+[ 91%] Built target cashier_system__rosidl_typesupport_fastrtps_c__pyext
+[ 91%] Built target cashier_system__rosidl_typesupport_c__pyext
+[ 97%] Built target cashier_system__rosidl_typesupport_introspection_c__pyext
+running egg_info
+writing cashier_system.egg-info/PKG-INFO
+writing dependency_links to cashier_system.egg-info/dependency_links.txt
+writing top-level names to cashier_system.egg-info/top_level.txt
+reading manifest file 'cashier_system.egg-info/SOURCES.txt'
+writing manifest file 'cashier_system.egg-info/SOURCES.txt'
+[ 97%] Built target ament_cmake_python_build_cashier_system_egg
+[01m[K/home/harsh/ros2_new/src/cashier_system/src/bill_publisher_node.cpp:46:34:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   46 |     rclcpp::TimerBase::SharedPtr [01;31m[Ktimer[m[K
+      |                                  [01;31m[K^~~~~[m[K
+      |                                       [32m[K;[m[K
+[01m[K/home/harsh/ros2_new/src/cashier_system/src/bill_publisher_node.cpp:46:39:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   46 |     rclcpp::TimerBase::SharedPtr timer
+      |                                       [01;31m[K^[m[K
+[01m[K/home/harsh/ros2_new/src/cashier_system/src/bill_publisher_node.cpp:5:47:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+    5 | class BillPublisherNode : public rclcpp::Node [01;36m[K{[m[K
+      |                                               [01;36m[K^[m[K
+[01m[K/home/harsh/ros2_new/src/cashier_system/src/bill_publisher_node.cpp:[m[K In constructor ‘[01m[KBillPublisherNode::BillPublisherNode()[m[K’:
+[01m[K/home/harsh/ros2_new/src/cashier_system/src/bill_publisher_node.cpp:9:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer[m[K’?
+    9 |         [01;31m[Ktimer_[m[K = this->create_wall_timer(
+      |         [01;31m[K^~~~~~[m[K
+      |         [32m[Ktimer[m[K
+[01m[K/home/harsh/ros2_new/src/cashier_system/src/bill_publisher_node.cpp:13:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kquantity_[m[K’ was not declared in this scope
+   13 |         [01;31m[Kquantity_[m[K = 100;  // Starting quantity of inventory
+      |         [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/harsh/ros2_new/src/cashier_system/src/bill_publisher_node.cpp:14:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kbill_number_[m[K’ was not declared in this scope
+   14 |         [01;31m[Kbill_number_[m[K = 0;
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/harsh/ros2_new/src/cashier_system/src/bill_publisher_node.cpp:[m[K In member function ‘[01m[Kvoid BillPublisherNode::publishBill()[m[K’:
+[01m[K/home/harsh/ros2_new/src/cashier_system/src/bill_publisher_node.cpp:19:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kquantity_[m[K’ was not declared in this scope
+   19 |         if ([01;31m[Kquantity_[m[K > 0) {
+      |             [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/harsh/ros2_new/src/cashier_system/src/bill_publisher_node.cpp:21:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kbill_number_[m[K’ was not declared in this scope
+   21 |             [01;31m[Kbill_number_[m[K++;
+      |             [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/harsh/ros2_new/src/cashier_system/src/bill_publisher_node.cpp:[m[K At global scope:
+[01m[K/home/harsh/ros2_new/src/cashier_system/src/bill_publisher_node.cpp:46:39:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+   46 |     rclcpp::TimerBase::SharedPtr timer
+      |                                       [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/bill_publisher_node.dir/build.make:76: CMakeFiles/bill_publisher_node.dir/src/bill_publisher_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:597: CMakeFiles/bill_publisher_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,59 @@
+[  2%] Built target cashier_system__cpp
+[ 10%] Built target cashier_system__rosidl_generator_c
+[ 10%] Built target ament_cmake_python_copy_cashier_system
+[ 35%] Built target cashier_system__rosidl_typesupport_introspection_c
+[ 35%] Built target cashier_system__rosidl_typesupport_cpp
+[ 37%] Built target cashier_system__rosidl_typesupport_c
+[ 43%] Built target cashier_system__rosidl_typesupport_fastrtps_c
+[ 51%] Built target cashier_system__rosidl_typesupport_fastrtps_cpp
+[ 59%] Built target cashier_system__rosidl_typesupport_introspection_cpp
+[ 59%] Built target cashier_system
+[ 70%] [32mBuilding CXX object CMakeFiles/bill_listener_node.dir/src/bill_listener_node.cpp.o[0m
+[ 72%] Built target bill_publisher_node
+[ 72%] Built target cashier_node
+[ 75%] Built target cashier_system__py
+[ 81%] Built target cashier_system__rosidl_generator_py
+[ 97%] Built target cashier_system__rosidl_typesupport_introspection_c__pyext
+[ 97%] Built target cashier_system__rosidl_typesupport_fastrtps_c__pyext
+[ 97%] Built target cashier_system__rosidl_typesupport_c__pyext
+running egg_info
+writing cashier_system.egg-info/PKG-INFO
+writing dependency_links to cashier_system.egg-info/dependency_links.txt
+writing top-level names to cashier_system.egg-info/top_level.txt
+reading manifest file 'cashier_system.egg-info/SOURCES.txt'
+writing manifest file 'cashier_system.egg-info/SOURCES.txt'
+[ 97%] Built target ament_cmake_python_build_cashier_system_egg
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/harsh/ros2_new/src/cashier_system/src/bill_listener_node.cpp:1[m[K:
+[01m[K/home/harsh/ros2_new/src/cashier_system/src/bill_listener_node.cpp:[m[K In member function ‘[01m[Kvoid BillListenerNode::printCurrentStatus()[m[K’:
+[01m[K/home/harsh/ros2_new/src/cashier_system/src/bill_listener_node.cpp:38:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >::_sec_type[m[K’ {aka ‘[01m[Kint[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   38 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"Last Bill Timestamp: %s"[m[K, [32m[Klast_bill_.timestamp.sec[m[K);
+      |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                                         [32m[K|[m[K
+      |                                                                                         [32m[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >::_sec_type {aka int}[m[K
+[01m[K/home/harsh/ros2_new/src/cashier_system/src/bill_listener_node.cpp:38:64:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   38 |         RCLCPP_INFO(this->get_logger(), "Last Bill Timestamp: [01;36m[K%s[m[K", last_bill_.timestamp.sec);
+      |                                                               [01;36m[K~^[m[K
+      |                                                                [01;36m[K|[m[K
+      |                                                                [01;36m[Kchar*[m[K
+      |                                                               [32m[K%d[m[K
+[01m[K/home/harsh/ros2_new/src/cashier_system/src/bill_listener_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/harsh/ros2_new/src/cashier_system/src/bill_listener_node.cpp:59:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid BillListenerNode::printCurrentStatus()[m[K’ is private within this context
+   59 |         [01;31m[Knode->printCurrentStatus()[m[K;  // Print the current status
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/harsh/ros2_new/src/cashier_system/src/bill_listener_node.cpp:28:10:[m[K [01;36m[Knote: [m[Kdeclared private here
+   28 |     void [01;36m[KprintCurrentStatus[m[K() {
+      |          [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/bill_listener_node.dir/build.make:76: CMakeFiles/bill_listener_node.dir/src/bill_listener_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:651: CMakeFiles/bill_listener_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

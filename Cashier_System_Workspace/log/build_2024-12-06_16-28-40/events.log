@@ -1,0 +1,104 @@
+[0.000000] (-) TimerEvent: {}
+[0.000580] (cashier_system) JobQueued: {'identifier': 'cashier_system', 'dependencies': OrderedDict()}
+[0.000778] (cashier_system) JobStarted: {'identifier': 'cashier_system'}
+[0.007204] (cashier_system) JobProgress: {'identifier': 'cashier_system', 'progress': 'cmake'}
+[0.007699] (cashier_system) JobProgress: {'identifier': 'cashier_system', 'progress': 'build'}
+[0.008134] (cashier_system) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/harsh/ros2_new/build/cashier_system', '--', '-j16', '-l16'], 'cwd': '/home/harsh/ros2_new/build/cashier_system', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'harsh'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/harsh'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1961'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=78af93634ba737ec1826308a67531a70'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'harsh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'harsh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/harshs-pc:@/tmp/.ICE-unix/1961,unix/harshs-pc:/tmp/.ICE-unix/1961'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/eee87b01_cb3c_4db3_9e51_1bee8f7ae6df'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('ZEITGEIST_DATA_PATH', '/home/harsh/.local/share/zeitgeist'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JICNY2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.197'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/harsh/ros2_new/build/cashier_system'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=78af93634ba737ec1826308a67531a70'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/harsh/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.054607] (cashier_system) StdoutLine: {'line': b'[  2%] Built target cashier_system__cpp\n'}
+[0.054840] (cashier_system) StdoutLine: {'line': b'[ 10%] Built target cashier_system__rosidl_generator_c\n'}
+[0.062870] (cashier_system) StdoutLine: {'line': b'[ 10%] Built target ament_cmake_python_copy_cashier_system\n'}
+[0.071441] (cashier_system) StdoutLine: {'line': b'[ 35%] Built target cashier_system__rosidl_typesupport_introspection_c\n'}
+[0.071593] (cashier_system) StdoutLine: {'line': b'[ 35%] Built target cashier_system__rosidl_typesupport_cpp\n'}
+[0.071644] (cashier_system) StdoutLine: {'line': b'[ 37%] Built target cashier_system__rosidl_typesupport_c\n'}
+[0.071702] (cashier_system) StdoutLine: {'line': b'[ 43%] Built target cashier_system__rosidl_typesupport_fastrtps_c\n'}
+[0.071773] (cashier_system) StdoutLine: {'line': b'[ 51%] Built target cashier_system__rosidl_typesupport_fastrtps_cpp\n'}
+[0.072022] (cashier_system) StdoutLine: {'line': b'[ 59%] Built target cashier_system__rosidl_typesupport_introspection_cpp\n'}
+[0.089591] (cashier_system) StdoutLine: {'line': b'[ 59%] Built target cashier_system\n'}
+[0.092137] (cashier_system) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/bill_listener_node.dir/src/bill_listener_node.cpp.o\x1b[0m\n'}
+[0.092298] (cashier_system) StdoutLine: {'line': b'[ 72%] Built target bill_publisher_node\n'}
+[0.092361] (cashier_system) StdoutLine: {'line': b'[ 72%] Built target cashier_node\n'}
+[0.099724] (-) TimerEvent: {}
+[0.108090] (cashier_system) StdoutLine: {'line': b'[ 75%] Built target cashier_system__py\n'}
+[0.127859] (cashier_system) StdoutLine: {'line': b'[ 81%] Built target cashier_system__rosidl_generator_py\n'}
+[0.147043] (cashier_system) StdoutLine: {'line': b'[ 97%] Built target cashier_system__rosidl_typesupport_introspection_c__pyext\n'}
+[0.147180] (cashier_system) StdoutLine: {'line': b'[ 97%] Built target cashier_system__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.147229] (cashier_system) StdoutLine: {'line': b'[ 97%] Built target cashier_system__rosidl_typesupport_c__pyext\n'}
+[0.199842] (-) TimerEvent: {}
+[0.237566] (cashier_system) StdoutLine: {'line': b'running egg_info\n'}
+[0.238051] (cashier_system) StdoutLine: {'line': b'writing cashier_system.egg-info/PKG-INFO\n'}
+[0.238241] (cashier_system) StdoutLine: {'line': b'writing dependency_links to cashier_system.egg-info/dependency_links.txt\n'}
+[0.238373] (cashier_system) StdoutLine: {'line': b'writing top-level names to cashier_system.egg-info/top_level.txt\n'}
+[0.239771] (cashier_system) StdoutLine: {'line': b"reading manifest file 'cashier_system.egg-info/SOURCES.txt'\n"}
+[0.240185] (cashier_system) StdoutLine: {'line': b"writing manifest file 'cashier_system.egg-info/SOURCES.txt'\n"}
+[0.266657] (cashier_system) StdoutLine: {'line': b'[ 97%] Built target ament_cmake_python_build_cashier_system_egg\n'}
+[0.299932] (-) TimerEvent: {}
+[0.400199] (-) TimerEvent: {}
+[0.500488] (-) TimerEvent: {}
+[0.600721] (-) TimerEvent: {}
+[0.701033] (-) TimerEvent: {}
+[0.801331] (-) TimerEvent: {}
+[0.901637] (-) TimerEvent: {}
+[1.001952] (-) TimerEvent: {}
+[1.102244] (-) TimerEvent: {}
+[1.202498] (-) TimerEvent: {}
+[1.302804] (-) TimerEvent: {}
+[1.403092] (-) TimerEvent: {}
+[1.503384] (-) TimerEvent: {}
+[1.603684] (-) TimerEvent: {}
+[1.703978] (-) TimerEvent: {}
+[1.804379] (-) TimerEvent: {}
+[1.809641] (cashier_system) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[1.809806] (cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.809856] (cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.809894] (cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.809928] (cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.809961] (cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.809993] (cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.810026] (cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.810059] (cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.810093] (cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.810124] (cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.810155] (cashier_system) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/harsh/ros2_new/src/cashier_system/src/bill_listener_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.810186] (cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/home/harsh/ros2_new/src/cashier_system/src/bill_listener_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid BillListenerNode::printCurrentStatus()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.810219] (cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/home/harsh/ros2_new/src/cashier_system/src/bill_listener_node.cpp:38:41:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%s\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >::_sec_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.810257] (cashier_system) StderrLine: {'line': b'   38 |         RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"Last Bill Timestamp: %s"\x1b[m\x1b[K, \x1b[32m\x1b[Klast_bill_.timestamp.sec\x1b[m\x1b[K);\n'}
+[1.810292] (cashier_system) StderrLine: {'line': b'      |                                         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K  \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.810323] (cashier_system) StderrLine: {'line': b'      |                                                                                         \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[1.810361] (cashier_system) StderrLine: {'line': b'      |                                                                                         \x1b[32m\x1b[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >::_sec_type {aka int}\x1b[m\x1b[K\n'}
+[1.810398] (cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/home/harsh/ros2_new/src/cashier_system/src/bill_listener_node.cpp:38:64:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[1.810430] (cashier_system) StderrLine: {'line': b'   38 |         RCLCPP_INFO(this->get_logger(), "Last Bill Timestamp: \x1b[01;36m\x1b[K%s\x1b[m\x1b[K", last_bill_.timestamp.sec);\n'}
+[1.810461] (cashier_system) StderrLine: {'line': b'      |                                                               \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[1.810499] (cashier_system) StderrLine: {'line': b'      |                                                                \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[1.810529] (cashier_system) StderrLine: {'line': b'      |                                                                \x1b[01;36m\x1b[Kchar*\x1b[m\x1b[K\n'}
+[1.810559] (cashier_system) StderrLine: {'line': b'      |                                                               \x1b[32m\x1b[K%d\x1b[m\x1b[K\n'}
+[1.812104] (cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/home/harsh/ros2_new/src/cashier_system/src/bill_listener_node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.812162] (cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/home/harsh/ros2_new/src/cashier_system/src/bill_listener_node.cpp:59:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid BillListenerNode::printCurrentStatus()\x1b[m\x1b[K\xe2\x80\x99 is private within this context\n'}
+[1.812198] (cashier_system) StderrLine: {'line': b'   59 |         \x1b[01;31m\x1b[Knode->printCurrentStatus()\x1b[m\x1b[K;  // Print the current status\n'}
+[1.812230] (cashier_system) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[1.812261] (cashier_system) StderrLine: {'line': b'\x1b[01m\x1b[K/home/harsh/ros2_new/src/cashier_system/src/bill_listener_node.cpp:28:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared private here\n'}
+[1.812291] (cashier_system) StderrLine: {'line': b'   28 |     void \x1b[01;36m\x1b[KprintCurrentStatus\x1b[m\x1b[K() {\n'}
+[1.812321] (cashier_system) StderrLine: {'line': b'      |          \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.904483] (-) TimerEvent: {}
+[2.004800] (-) TimerEvent: {}
+[2.105093] (-) TimerEvent: {}
+[2.205387] (-) TimerEvent: {}
+[2.305730] (-) TimerEvent: {}
+[2.406028] (-) TimerEvent: {}
+[2.506316] (-) TimerEvent: {}
+[2.606718] (-) TimerEvent: {}
+[2.707003] (-) TimerEvent: {}
+[2.807290] (-) TimerEvent: {}
+[2.907600] (-) TimerEvent: {}
+[3.007967] (-) TimerEvent: {}
+[3.108280] (-) TimerEvent: {}
+[3.208660] (-) TimerEvent: {}
+[3.308947] (-) TimerEvent: {}
+[3.409246] (-) TimerEvent: {}
+[3.509566] (-) TimerEvent: {}
+[3.609821] (cashier_system) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/bill_listener_node.dir/build.make:76: CMakeFiles/bill_listener_node.dir/src/bill_listener_node.cpp.o] Error 1\n'}
+[3.610036] (-) TimerEvent: {}
+[3.610196] (cashier_system) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:651: CMakeFiles/bill_listener_node.dir/all] Error 2\n'}
+[3.610416] (cashier_system) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.613332] (cashier_system) CommandEnded: {'returncode': 2}
+[3.621963] (cashier_system) JobEnded: {'identifier': 'cashier_system', 'rc': 2}
+[3.632336] (-) EventReactorShutdown: {}

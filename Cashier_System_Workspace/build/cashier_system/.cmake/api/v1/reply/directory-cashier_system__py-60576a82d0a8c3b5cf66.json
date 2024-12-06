@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "cashier_system__py",
+		"source" : "/home/harsh/ros2_new/build/cashier_system/cashier_system__py"
+	}
+}

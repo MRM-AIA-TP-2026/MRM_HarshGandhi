@@ -1,0 +1,14 @@
+[0.009s] Invoking command in '/home/harsh/ros2_new/build/hello_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/harsh/ros2_new/build/hello_world -- -j16 -l16
+[0.045s] [35m[1mConsolidate compiler generated dependencies of target hello_node[0m
+[0.059s] [ 50%] [32mBuilding CXX object CMakeFiles/hello_node.dir/src/helloworld.cpp.o[0m
+[1.621s] [01m[K/home/harsh/ros2_new/src/hello_world/src/helloworld.cpp:[m[K In constructor ‘[01m[KHelloWorldNode::HelloWorldNode()[m[K’:
+[1.621s] [01m[K/home/harsh/ros2_new/src/hello_world/src/helloworld.cpp:14:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kprint_hello[m[K’ is not a member of ‘[01m[KHelloWorldNode[m[K’
+[1.621s]    14 |             std::bind(&HelloWorldNode::[01;31m[Kprint_hello[m[K, this)
+[1.621s]       |                                        [01;31m[K^~~~~~~~~~~[m[K
+[1.621s] [01m[K/home/harsh/ros2_new/src/hello_world/src/helloworld.cpp:20:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kshop_close[m[K’ is not a member of ‘[01m[KHelloWorldNode[m[K’
+[1.621s]    20 |             std::bind(&HelloWorldNode::[01;31m[Kshop_close[m[K, this)
+[1.621s]       |                                        [01;31m[K^~~~~~~~~~[m[K
+[1.935s] gmake[2]: *** [CMakeFiles/hello_node.dir/build.make:76: CMakeFiles/hello_node.dir/src/helloworld.cpp.o] Error 1
+[1.935s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/hello_node.dir/all] Error 2
+[1.936s] gmake: *** [Makefile:146: all] Error 2
+[1.939s] Invoked command in '/home/harsh/ros2_new/build/hello_world' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/harsh/ros2_new/build/hello_world -- -j16 -l16

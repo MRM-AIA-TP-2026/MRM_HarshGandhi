@@ -1,0 +1,11 @@
+[0.009s] Invoking command in '/home/harsh/ros2_new/build/hello_world': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/harsh/ros2_new/build/hello_world -- -j16 -l16
+[0.056s] [ 25%] [32mBuilding CXX object CMakeFiles/hello_node.dir/src/helloworld.cpp.o[0m
+[0.056s] [ 75%] Built target price_subscriber
+[0.214s] [01m[K/home/harsh/ros2_new/src/hello_world/src/helloworld.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/int32.hpp: No such file or directory
+[0.214s]     2 | #include [01;31m[K"std_msgs/msg/int32.hpp"[m[K
+[0.215s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.215s] compilation terminated.
+[0.217s] gmake[2]: *** [CMakeFiles/hello_node.dir/build.make:76: CMakeFiles/hello_node.dir/src/helloworld.cpp.o] Error 1
+[0.218s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/hello_node.dir/all] Error 2
+[0.218s] gmake: *** [Makefile:146: all] Error 2
+[0.221s] Invoked command in '/home/harsh/ros2_new/build/hello_world' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/harsh/ros2_new/build/hello_world -- -j16 -l16

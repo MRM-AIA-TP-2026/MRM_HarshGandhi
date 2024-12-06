@@ -1,0 +1,17 @@
+# Open a new terminal
+cd ~/ros2_cashier_ws
+source install/setup.bash
+
+
+`Terminal 1 - Bill Publisher:
+source ~/ros2_cashier_ws/install/setup.bash
+ros2 run cashier_system bill_publisher_node
+
+
+Terminal 2 - Cashier Node:
+source ~/ros2_cashier_ws/install/setup.bash
+ros2 run cashier_system cashier_node
+
+Terminal 3: Bill Listener
+source ~/ros2_cashier_ws/install/setup.bash
+ros2 run cashier_system bill_listener_node

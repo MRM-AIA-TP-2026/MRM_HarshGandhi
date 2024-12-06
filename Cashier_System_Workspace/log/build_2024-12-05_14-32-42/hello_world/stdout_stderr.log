@@ -1,0 +1,9 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/hello_node.dir/src/helloworld.cpp.o[0m
+[ 75%] Built target price_subscriber
+[01m[K/home/harsh/ros2_new/src/hello_world/src/helloworld.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/int32.hpp: No such file or directory
+    2 | #include [01;31m[K"std_msgs/msg/int32.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/hello_node.dir/build.make:76: CMakeFiles/hello_node.dir/src/helloworld.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/hello_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

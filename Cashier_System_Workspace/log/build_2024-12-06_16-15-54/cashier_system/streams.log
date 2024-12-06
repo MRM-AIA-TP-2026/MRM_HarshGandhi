@@ -1,0 +1,47 @@
+[0.009s] Invoking command in '/home/harsh/ros2_new/build/cashier_system': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/harsh/ros2_new/build/cashier_system -- -j16 -l16
+[0.056s] [  8%] Built target cashier_system__cpp
+[0.056s] [ 10%] Built target cashier_system__rosidl_generator_c
+[0.064s] [ 10%] Built target ament_cmake_python_copy_cashier_system
+[0.073s] [ 29%] Built target cashier_system__rosidl_typesupport_introspection_c
+[0.073s] [ 37%] Built target cashier_system__rosidl_typesupport_cpp
+[0.073s] [ 40%] Built target cashier_system__rosidl_typesupport_fastrtps_c
+[0.073s] [ 43%] Built target cashier_system__rosidl_typesupport_fastrtps_cpp
+[0.073s] [ 51%] Built target cashier_system__rosidl_typesupport_c
+[0.073s] [ 59%] Built target cashier_system__rosidl_typesupport_introspection_cpp
+[0.083s] [35m[1mConsolidate compiler generated dependencies of target bill_publisher_node[0m
+[0.094s] [ 64%] Built target bill_listener_node
+[0.094s] [ 70%] Built target cashier_node
+[0.096s] [ 72%] [32mBuilding CXX object CMakeFiles/bill_publisher_node.dir/src/bill_publisher_node.cpp.o[0m
+[0.113s] [ 72%] Built target cashier_system
+[0.131s] [ 75%] Built target cashier_system__py
+[0.153s] [ 81%] Built target cashier_system__rosidl_generator_py
+[0.173s] [ 86%] Built target cashier_system__rosidl_typesupport_fastrtps_c__pyext
+[0.173s] [ 97%] Built target cashier_system__rosidl_typesupport_introspection_c__pyext
+[0.173s] [ 97%] Built target cashier_system__rosidl_typesupport_c__pyext
+[0.236s] running egg_info
+[0.236s] writing cashier_system.egg-info/PKG-INFO
+[0.237s] writing dependency_links to cashier_system.egg-info/dependency_links.txt
+[0.237s] writing top-level names to cashier_system.egg-info/top_level.txt
+[0.238s] reading manifest file 'cashier_system.egg-info/SOURCES.txt'
+[0.239s] writing manifest file 'cashier_system.egg-info/SOURCES.txt'
+[0.260s] [ 97%] Built target ament_cmake_python_build_cashier_system_egg
+[1.746s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.746s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.746s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.746s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.746s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.746s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.746s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.746s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.746s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.746s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.746s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.746s]                  from [01m[K/home/harsh/ros2_new/src/cashier_system/src/bill_publisher_node.cpp:1[m[K:
+[1.746s] [01m[K/home/harsh/ros2_new/src/cashier_system/src/bill_publisher_node.cpp:[m[K In member function ‘[01m[Kvoid BillPublisherNode::publishBill()[m[K’:
+[1.747s] [01m[K/home/harsh/ros2_new/src/cashier_system/src/bill_publisher_node.cpp:36:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _timestamp_type = struct builtin_interfaces::msg::Time_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct builtin_interfaces::msg::Time_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kseconds[m[K’
+[1.747s]    36 |                 bill.timestamp.[01;31m[Kseconds[m[K(), quantity_);
+[1.747s]       |                                [01;31m[K^~~~~~~[m[K
+[2.317s] gmake[2]: *** [CMakeFiles/bill_publisher_node.dir/build.make:76: CMakeFiles/bill_publisher_node.dir/src/bill_publisher_node.cpp.o] Error 1
+[2.317s] gmake[1]: *** [CMakeFiles/Makefile2:597: CMakeFiles/bill_publisher_node.dir/all] Error 2
+[2.317s] gmake: *** [Makefile:146: all] Error 2
+[2.320s] Invoked command in '/home/harsh/ros2_new/build/cashier_system' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/harsh/ros2_new/build/cashier_system -- -j16 -l16

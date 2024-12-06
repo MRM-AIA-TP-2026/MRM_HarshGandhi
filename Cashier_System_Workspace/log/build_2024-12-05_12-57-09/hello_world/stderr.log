@@ -1,0 +1,7 @@
+[01m[K/home/harsh/ros2_new/src/hello_world/src/helloworld.cpp:[m[K In member function ‘[01m[Kvoid HelloWorldNode::print_hello()[m[K’:
+[01m[K/home/harsh/ros2_new/src/hello_world/src/helloworld.cpp:22:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kelse[m[K’ without a previous ‘[01m[Kif[m[K’
+   22 |         }[01;31m[Kelse[m[K{
+      |          [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/hello_node.dir/build.make:76: CMakeFiles/hello_node.dir/src/helloworld.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/hello_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

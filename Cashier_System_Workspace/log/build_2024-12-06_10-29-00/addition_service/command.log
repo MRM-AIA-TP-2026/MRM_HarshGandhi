@@ -1,0 +1,6 @@
+Invoking command in '/home/harsh/ros2_new/build/addition_service': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/harsh/ros2_new/src/addition_service -DCMAKE_INSTALL_PREFIX=/home/harsh/ros2_new/install/addition_service
+Invoked command in '/home/harsh/ros2_new/build/addition_service' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/harsh/ros2_new/src/addition_service -DCMAKE_INSTALL_PREFIX=/home/harsh/ros2_new/install/addition_service
+Invoking command in '/home/harsh/ros2_new/build/addition_service': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/harsh/ros2_new/build/addition_service -- -j16 -l16
+Invoked command in '/home/harsh/ros2_new/build/addition_service' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/harsh/ros2_new/build/addition_service -- -j16 -l16
+Invoking command in '/home/harsh/ros2_new/build/addition_service': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/harsh/ros2_new/build/addition_service
+Invoked command in '/home/harsh/ros2_new/build/addition_service' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/harsh/ros2_new/build/addition_service

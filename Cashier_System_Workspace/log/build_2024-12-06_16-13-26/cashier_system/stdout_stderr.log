@@ -1,0 +1,56 @@
+[  2%] Built target cashier_system__cpp
+[ 10%] Built target cashier_system__rosidl_generator_c
+[ 10%] Built target ament_cmake_python_copy_cashier_system
+[ 18%] Built target cashier_system__rosidl_typesupport_c
+[ 29%] Built target cashier_system__rosidl_typesupport_introspection_c
+[ 35%] Built target cashier_system__rosidl_typesupport_cpp
+[ 43%] Built target cashier_system__rosidl_typesupport_fastrtps_cpp
+[ 51%] Built target cashier_system__rosidl_typesupport_introspection_cpp
+[ 59%] Built target cashier_system__rosidl_typesupport_fastrtps_c
+[35m[1mConsolidate compiler generated dependencies of target bill_publisher_node[0m
+[ 70%] Built target bill_listener_node
+[ 70%] Built target cashier_node
+[ 72%] [32mBuilding CXX object CMakeFiles/bill_publisher_node.dir/src/bill_publisher_node.cpp.o[0m
+[ 72%] Built target cashier_system
+[ 75%] Built target cashier_system__py
+[ 81%] Built target cashier_system__rosidl_generator_py
+[ 97%] Built target cashier_system__rosidl_typesupport_introspection_c__pyext
+[ 97%] Built target cashier_system__rosidl_typesupport_fastrtps_c__pyext
+[ 97%] Built target cashier_system__rosidl_typesupport_c__pyext
+running egg_info
+writing cashier_system.egg-info/PKG-INFO
+writing dependency_links to cashier_system.egg-info/dependency_links.txt
+writing top-level names to cashier_system.egg-info/top_level.txt
+reading manifest file 'cashier_system.egg-info/SOURCES.txt'
+writing manifest file 'cashier_system.egg-info/SOURCES.txt'
+[ 97%] Built target ament_cmake_python_build_cashier_system_egg
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/harsh/ros2_new/src/cashier_system/src/bill_publisher_node.cpp:1[m[K:
+[01m[K/home/harsh/ros2_new/src/cashier_system/src/bill_publisher_node.cpp:[m[K In member function ‘[01m[Kvoid BillPublisherNode::publishBill()[m[K’:
+[01m[K/home/harsh/ros2_new/src/cashier_system/src/bill_publisher_node.cpp:34:41:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kbill[m[K’
+   34 |             bill.bill_number, quantity_ [01;31m[Kbill[m[K.total);
+      |                                         [01;31m[K^~~~[m[K
+[01m[K/home/harsh/ros2_new/src/cashier_system/src/bill_publisher_node.cpp:32:9:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   32 |         [01;36m[KRCLCPP_INFO[m[K(this->get_logger(),
+      |         [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/harsh/ros2_new/src/cashier_system/src/bill_publisher_node.cpp:33:13:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects a matching ‘[01m[Kdouble[m[K’ argument [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   33 |             [01;35m[K"Publishing Bill: Number %d, Quantity %d, Total $%.2f"[m[K,
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/harsh/ros2_new/src/cashier_system/src/bill_publisher_node.cpp:33:65:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   33 |             "Publishing Bill: Number %d, Quantity %d, Total $[01;36m[K%.2f[m[K",
+      |                                                              [01;36m[K~~~^[m[K
+      |                                                                 [01;36m[K|[m[K
+      |                                                                 [01;36m[Kdouble[m[K
+gmake[2]: *** [CMakeFiles/bill_publisher_node.dir/build.make:76: CMakeFiles/bill_publisher_node.dir/src/bill_publisher_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:597: CMakeFiles/bill_publisher_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

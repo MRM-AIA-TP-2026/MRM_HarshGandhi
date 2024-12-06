@@ -1,0 +1,48 @@
+[0.008s] Invoking command in '/home/harsh/ros2_new/build/cashier_system': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/harsh/ros2_new/build/cashier_system -- -j16 -l16
+[0.054s] [  2%] Built target cashier_system__cpp
+[0.054s] [ 10%] Built target cashier_system__rosidl_generator_c
+[0.062s] [ 10%] Built target ament_cmake_python_copy_cashier_system
+[0.071s] [ 27%] Built target cashier_system__rosidl_typesupport_c
+[0.071s] [ 27%] Built target cashier_system__rosidl_typesupport_introspection_c
+[0.071s] [ 43%] Built target cashier_system__rosidl_typesupport_fastrtps_cpp
+[0.071s] [ 43%] Built target cashier_system__rosidl_typesupport_cpp
+[0.071s] [ 51%] Built target cashier_system__rosidl_typesupport_introspection_cpp
+[0.080s] [ 59%] Built target cashier_system__rosidl_typesupport_fastrtps_c
+[0.080s] [35m[1mConsolidate compiler generated dependencies of target bill_listener_node[0m
+[0.091s] [ 70%] Built target cashier_node
+[0.091s] [ 70%] Built target bill_publisher_node
+[0.094s] [ 72%] [32mBuilding CXX object CMakeFiles/bill_listener_node.dir/src/bill_listener_node.cpp.o[0m
+[0.096s] [ 72%] Built target cashier_system
+[0.114s] [ 75%] Built target cashier_system__py
+[0.135s] [ 81%] Built target cashier_system__rosidl_generator_py
+[0.153s] [ 91%] Built target cashier_system__rosidl_typesupport_introspection_c__pyext
+[0.153s] [ 91%] Built target cashier_system__rosidl_typesupport_fastrtps_c__pyext
+[0.153s] [ 97%] Built target cashier_system__rosidl_typesupport_c__pyext
+[0.232s] running egg_info
+[0.233s] writing cashier_system.egg-info/PKG-INFO
+[0.233s] writing dependency_links to cashier_system.egg-info/dependency_links.txt
+[0.233s] writing top-level names to cashier_system.egg-info/top_level.txt
+[0.234s] reading manifest file 'cashier_system.egg-info/SOURCES.txt'
+[0.235s] writing manifest file 'cashier_system.egg-info/SOURCES.txt'
+[0.260s] [ 97%] Built target ament_cmake_python_build_cashier_system_egg
+[1.735s] [01m[K/home/harsh/ros2_new/src/cashier_system/src/bill_listener_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.735s] [01m[K/home/harsh/ros2_new/src/cashier_system/src/bill_listener_node.cpp:51:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kar[m[K’ was not declared in this scope; did you mean ‘[01m[Kargc[m[K’?
+[1.735s]    51 |     rclcpp::init([01;31m[Kar[m[K
+[1.735s]       |                  [01;31m[K^~[m[K
+[1.736s]       |                  [32m[Kargc[m[K
+[1.736s] [01m[K/home/harsh/ros2_new/src/cashier_system/src/bill_listener_node.cpp:51:20:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[1.736s]    51 |     rclcpp::init(ar
+[1.736s]       |                    [01;31m[K^[m[K
+[1.736s] [01m[K/home/harsh/ros2_new/src/cashier_system/src/bill_listener_node.cpp:50:33:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[1.736s]    50 | int main(int argc, char **argv) [01;36m[K{[m[K
+[1.736s]       |                                 [01;36m[K^[m[K
+[1.736s] [01m[K/home/harsh/ros2_new/src/cashier_system/src/bill_listener_node.cpp:50:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.736s]    50 | int main([01;35m[Kint argc[m[K, char **argv) {
+[1.736s]       |          [01;35m[K~~~~^~~~[m[K
+[1.736s] [01m[K/home/harsh/ros2_new/src/cashier_system/src/bill_listener_node.cpp:50:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.736s]    50 | int main(int argc, [01;35m[Kchar **argv[m[K) {
+[1.736s]       |                    [01;35m[K~~~~~~~^~~~[m[K
+[3.301s] gmake[2]: *** [CMakeFiles/bill_listener_node.dir/build.make:76: CMakeFiles/bill_listener_node.dir/src/bill_listener_node.cpp.o] Error 1
+[3.302s] gmake[1]: *** [CMakeFiles/Makefile2:651: CMakeFiles/bill_listener_node.dir/all] Error 2
+[3.302s] gmake: *** [Makefile:146: all] Error 2
+[3.305s] Invoked command in '/home/harsh/ros2_new/build/cashier_system' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/harsh/ros2_new/build/cashier_system -- -j16 -l16

@@ -1,0 +1,25 @@
+[0.010s] Invoking command in '/home/harsh/ros2_new/build/hello_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/harsh/ros2_new/build/hello_world -- -j16 -l16
+[0.057s] [ 50%] [32mBuilding CXX object CMakeFiles/hello_node.dir/src/helloworld.cpp.o[0m
+[2.035s] [100%] [32m[1mLinking CXX executable hello_node[0m
+[2.115s] [100%] Built target hello_node
+[2.125s] Invoked command in '/home/harsh/ros2_new/build/hello_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/harsh/ros2_new/build/hello_world -- -j16 -l16
+[2.135s] Invoking command in '/home/harsh/ros2_new/build/hello_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/harsh/ros2_new/build/hello_world
+[2.141s] -- Install configuration: ""
+[2.141s] -- Installing: /home/harsh/ros2_new/install/hello_world/lib/hello_world/hello_node
+[2.141s] -- Set runtime path of "/home/harsh/ros2_new/install/hello_world/lib/hello_world/hello_node" to ""
+[2.141s] -- Up-to-date: /home/harsh/ros2_new/install/hello_world/share/ament_index/resource_index/package_run_dependencies/hello_world
+[2.141s] -- Up-to-date: /home/harsh/ros2_new/install/hello_world/share/ament_index/resource_index/parent_prefix_path/hello_world
+[2.141s] -- Up-to-date: /home/harsh/ros2_new/install/hello_world/share/hello_world/environment/ament_prefix_path.sh
+[2.141s] -- Up-to-date: /home/harsh/ros2_new/install/hello_world/share/hello_world/environment/ament_prefix_path.dsv
+[2.141s] -- Up-to-date: /home/harsh/ros2_new/install/hello_world/share/hello_world/environment/path.sh
+[2.141s] -- Up-to-date: /home/harsh/ros2_new/install/hello_world/share/hello_world/environment/path.dsv
+[2.142s] -- Up-to-date: /home/harsh/ros2_new/install/hello_world/share/hello_world/local_setup.bash
+[2.142s] -- Up-to-date: /home/harsh/ros2_new/install/hello_world/share/hello_world/local_setup.sh
+[2.142s] -- Up-to-date: /home/harsh/ros2_new/install/hello_world/share/hello_world/local_setup.zsh
+[2.142s] -- Up-to-date: /home/harsh/ros2_new/install/hello_world/share/hello_world/local_setup.dsv
+[2.142s] -- Up-to-date: /home/harsh/ros2_new/install/hello_world/share/hello_world/package.dsv
+[2.142s] -- Up-to-date: /home/harsh/ros2_new/install/hello_world/share/ament_index/resource_index/packages/hello_world
+[2.142s] -- Up-to-date: /home/harsh/ros2_new/install/hello_world/share/hello_world/cmake/hello_worldConfig.cmake
+[2.142s] -- Up-to-date: /home/harsh/ros2_new/install/hello_world/share/hello_world/cmake/hello_worldConfig-version.cmake
+[2.142s] -- Up-to-date: /home/harsh/ros2_new/install/hello_world/share/hello_world/package.xml
+[2.143s] Invoked command in '/home/harsh/ros2_new/build/hello_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/harsh/ros2_new/build/hello_world

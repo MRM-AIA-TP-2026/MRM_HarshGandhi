@@ -1,0 +1,66 @@
+[0.010s] Invoking command in '/home/harsh/ros2_new/build/addition_service': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/harsh/ros2_new/src/addition_service -DCMAKE_INSTALL_PREFIX=/home/harsh/ros2_new/install/addition_service
+[0.110s] -- The C compiler identification is GNU 11.4.0
+[0.189s] -- The CXX compiler identification is GNU 11.4.0
+[0.198s] -- Detecting C compiler ABI info
+[0.261s] -- Detecting C compiler ABI info - done
+[0.266s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.267s] -- Detecting C compile features
+[0.268s] -- Detecting C compile features - done
+[0.271s] -- Detecting CXX compiler ABI info
+[0.339s] -- Detecting CXX compiler ABI info - done
+[0.344s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.344s] -- Detecting CXX compile features
+[0.344s] -- Detecting CXX compile features - done
+[0.349s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.456s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.528s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.566s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.571s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.578s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.589s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.602s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.640s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.643s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.729s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.751s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.783s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.792s] -- Looking for pthread.h
+[0.862s] -- Looking for pthread.h - found
+[0.862s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.925s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.926s] -- Found Threads: TRUE  
+[0.968s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[1.046s] -- Configuring done
+[1.056s] -- Generating done
+[1.059s] -- Build files have been written to: /home/harsh/ros2_new/build/addition_service
+[1.069s] Invoked command in '/home/harsh/ros2_new/build/addition_service' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/harsh/ros2_new/src/addition_service -DCMAKE_INSTALL_PREFIX=/home/harsh/ros2_new/install/addition_service
+[1.069s] Invoking command in '/home/harsh/ros2_new/build/addition_service': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/harsh/ros2_new/build/addition_service -- -j16 -l16
+[1.110s] [ 25%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[1.111s] [ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[3.573s] [ 75%] [32m[1mLinking CXX executable server[0m
+[3.682s] [100%] [32m[1mLinking CXX executable client[0m
+[3.700s] [100%] Built target server
+[3.792s] [100%] Built target client
+[3.802s] Invoked command in '/home/harsh/ros2_new/build/addition_service' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/harsh/ros2_new/build/addition_service -- -j16 -l16
+[3.810s] Invoking command in '/home/harsh/ros2_new/build/addition_service': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/harsh/ros2_new/build/addition_service
+[3.816s] -- Install configuration: ""
+[3.816s] -- Installing: /home/harsh/ros2_new/install/addition_service/lib/addition_service/server
+[3.817s] -- Set runtime path of "/home/harsh/ros2_new/install/addition_service/lib/addition_service/server" to ""
+[3.817s] -- Installing: /home/harsh/ros2_new/install/addition_service/lib/addition_service/client
+[3.817s] -- Set runtime path of "/home/harsh/ros2_new/install/addition_service/lib/addition_service/client" to ""
+[3.817s] -- Installing: /home/harsh/ros2_new/install/addition_service/share/ament_index/resource_index/package_run_dependencies/addition_service
+[3.817s] -- Installing: /home/harsh/ros2_new/install/addition_service/share/ament_index/resource_index/parent_prefix_path/addition_service
+[3.818s] -- Installing: /home/harsh/ros2_new/install/addition_service/share/addition_service/environment/ament_prefix_path.sh
+[3.818s] -- Installing: /home/harsh/ros2_new/install/addition_service/share/addition_service/environment/ament_prefix_path.dsv
+[3.818s] -- Installing: /home/harsh/ros2_new/install/addition_service/share/addition_service/environment/path.sh
+[3.818s] -- Installing: /home/harsh/ros2_new/install/addition_service/share/addition_service/environment/path.dsv
+[3.818s] -- Installing: /home/harsh/ros2_new/install/addition_service/share/addition_service/local_setup.bash
+[3.818s] -- Installing: /home/harsh/ros2_new/install/addition_service/share/addition_service/local_setup.sh
+[3.818s] -- Installing: /home/harsh/ros2_new/install/addition_service/share/addition_service/local_setup.zsh
+[3.818s] -- Installing: /home/harsh/ros2_new/install/addition_service/share/addition_service/local_setup.dsv
+[3.819s] -- Installing: /home/harsh/ros2_new/install/addition_service/share/addition_service/package.dsv
+[3.819s] -- Installing: /home/harsh/ros2_new/install/addition_service/share/ament_index/resource_index/packages/addition_service
+[3.819s] -- Installing: /home/harsh/ros2_new/install/addition_service/share/addition_service/cmake/addition_serviceConfig.cmake
+[3.819s] -- Installing: /home/harsh/ros2_new/install/addition_service/share/addition_service/cmake/addition_serviceConfig-version.cmake
+[3.819s] -- Installing: /home/harsh/ros2_new/install/addition_service/share/addition_service/package.xml
+[3.821s] Invoked command in '/home/harsh/ros2_new/build/addition_service' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/harsh/ros2_new/build/addition_service

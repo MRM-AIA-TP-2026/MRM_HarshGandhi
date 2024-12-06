@@ -1,0 +1,16 @@
+[0.008s] Invoking command in '/home/harsh/ros2_new/build/hello_world': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/harsh/ros2_new/build/hello_world -- -j16 -l16
+[0.044s] [35m[1mConsolidate compiler generated dependencies of target hello_node[0m
+[0.057s] [ 50%] [32mBuilding CXX object CMakeFiles/hello_node.dir/src/helloworld.cpp.o[0m
+[1.612s] [01m[K/home/harsh/ros2_new/src/hello_world/src/helloworld.cpp:20:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[1.612s]    20 | }
+[1.612s]       |  [01;31m[K^[m[K
+[1.612s]       |  [32m[K;[m[K
+[1.616s] [01m[K/home/harsh/ros2_new/src/hello_world/src/helloworld.cpp:[m[K In constructor ‘[01m[KHelloWorldNode::HelloWorldNode()[m[K’:
+[1.616s] [01m[K/home/harsh/ros2_new/src/hello_world/src/helloworld.cpp:10:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+[1.616s]    10 |             [01;31m[Ktimer_[m[K = this->create_wall_timer(
+[1.616s]       |             [01;31m[K^~~~~~[m[K
+[1.616s]       |             [32m[Ktimer_t[m[K
+[1.951s] gmake[2]: *** [CMakeFiles/hello_node.dir/build.make:76: CMakeFiles/hello_node.dir/src/helloworld.cpp.o] Error 1
+[1.951s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/hello_node.dir/all] Error 2
+[1.952s] gmake: *** [Makefile:146: all] Error 2
+[1.955s] Invoked command in '/home/harsh/ros2_new/build/hello_world' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/harsh/ros2_new/build/hello_world -- -j16 -l16
