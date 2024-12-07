@@ -65,6 +65,8 @@ This ROS 2 package implements a simple cashier system with three core nodes that
 - C++17 compatible compiler
 - CMake
 
+## YOUTUBE VIDEO LINK
+https://youtu.be/GASnjODQGP0
 
 
 
