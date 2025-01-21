@@ -1,0 +1,8 @@
+[01m[K/home/harsh/rover_project/src/mobile_robot/src/rover_control_node.cpp:[m[K In constructor ‘[01m[KRoverControlNode::RoverControlNode()[m[K’:
+[01m[K/home/harsh/rover_project/src/mobile_robot/src/rover_control_node.cpp:20:13:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""ms[m[K’
+   20 |             [01;31m[K100ms[m[K, std::bind(&RoverControlNode::timer_callback, this));
+      |             [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/rover_control_node.dir/build.make:76: CMakeFiles/rover_control_node.dir/src/rover_control_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/rover_control_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

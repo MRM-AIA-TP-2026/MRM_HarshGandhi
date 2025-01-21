@@ -1,0 +1,43 @@
+[0.021s] Invoking command in '/home/harsh/rover_project/build/mobile_robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/harsh/rover_project/build/mobile_robot -- -j8 -l8
+[0.268s] [ 33%] Built target gps_subscriber
+[0.269s] [ 66%] Built target coordinate_input_node
+[0.270s] [ 83%] [32mBuilding CXX object CMakeFiles/rover_control_node.dir/src/rover_control_node.cpp.o[0m
+[7.097s] [100%] [32m[1mLinking CXX executable rover_control_node[0m
+[7.481s] [100%] Built target rover_control_node
+[7.499s] Invoked command in '/home/harsh/rover_project/build/mobile_robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/harsh/rover_project/build/mobile_robot -- -j8 -l8
+[7.521s] Invoking command in '/home/harsh/rover_project/build/mobile_robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/harsh/rover_project/build/mobile_robot
+[7.531s] -- Install configuration: ""
+[7.535s] -- Up-to-date: /home/harsh/rover_project/install/mobile_robot/lib/mobile_robot/coordinate_input_node
+[7.537s] -- Up-to-date: /home/harsh/rover_project/install/mobile_robot/lib/mobile_robot/gps_subscriber
+[7.538s] -- Installing: /home/harsh/rover_project/install/mobile_robot/lib/mobile_robot/rover_control_node
+[7.540s] -- Set runtime path of "/home/harsh/rover_project/install/mobile_robot/lib/mobile_robot/rover_control_node" to ""
+[7.540s] -- Up-to-date: /home/harsh/rover_project/install/mobile_robot/share/mobile_robot/launch
+[7.541s] -- Up-to-date: /home/harsh/rover_project/install/mobile_robot/share/mobile_robot/launch/gazebo_launch.py
+[7.541s] -- Up-to-date: /home/harsh/rover_project/install/mobile_robot/share/mobile_robot/launch/coordinate_input_launch.py
+[7.541s] -- Up-to-date: /home/harsh/rover_project/install/mobile_robot/share/mobile_robot/model
+[7.541s] -- Up-to-date: /home/harsh/rover_project/install/mobile_robot/share/mobile_robot/model/rover.xacro
+[7.541s] -- Up-to-date: /home/harsh/rover_project/install/mobile_robot/share/mobile_robot/model/rover.gazebo
+[7.542s] -- Up-to-date: /home/harsh/rover_project/install/mobile_robot/share/mobile_robot/model/world.world
+[7.543s] -- Up-to-date: /home/harsh/rover_project/install/mobile_robot/install/mobile_robot/launch
+[7.543s] -- Up-to-date: /home/harsh/rover_project/install/mobile_robot/install/mobile_robot/launch/gazebo_launch.py
+[7.543s] -- Up-to-date: /home/harsh/rover_project/install/mobile_robot/install/mobile_robot/launch/coordinate_input_launch.py
+[7.543s] -- Up-to-date: /home/harsh/rover_project/install/mobile_robot/install/mobile_robot/model
+[7.544s] -- Up-to-date: /home/harsh/rover_project/install/mobile_robot/install/mobile_robot/model/rover.xacro
+[7.544s] -- Up-to-date: /home/harsh/rover_project/install/mobile_robot/install/mobile_robot/model/rover.gazebo
+[7.544s] -- Up-to-date: /home/harsh/rover_project/install/mobile_robot/install/mobile_robot/model/world.world
+[7.545s] -- Up-to-date: /home/harsh/rover_project/install/mobile_robot/share/ament_index/resource_index/package_run_dependencies/mobile_robot
+[7.546s] -- Up-to-date: /home/harsh/rover_project/install/mobile_robot/share/ament_index/resource_index/parent_prefix_path/mobile_robot
+[7.546s] -- Up-to-date: /home/harsh/rover_project/install/mobile_robot/share/mobile_robot/environment/ament_prefix_path.sh
+[7.547s] -- Up-to-date: /home/harsh/rover_project/install/mobile_robot/share/mobile_robot/environment/ament_prefix_path.dsv
+[7.547s] -- Up-to-date: /home/harsh/rover_project/install/mobile_robot/share/mobile_robot/environment/path.sh
+[7.547s] -- Up-to-date: /home/harsh/rover_project/install/mobile_robot/share/mobile_robot/environment/path.dsv
+[7.547s] -- Up-to-date: /home/harsh/rover_project/install/mobile_robot/share/mobile_robot/local_setup.bash
+[7.547s] -- Up-to-date: /home/harsh/rover_project/install/mobile_robot/share/mobile_robot/local_setup.sh
+[7.547s] -- Up-to-date: /home/harsh/rover_project/install/mobile_robot/share/mobile_robot/local_setup.zsh
+[7.547s] -- Up-to-date: /home/harsh/rover_project/install/mobile_robot/share/mobile_robot/local_setup.dsv
+[7.547s] -- Installing: /home/harsh/rover_project/install/mobile_robot/share/mobile_robot/package.dsv
+[7.548s] -- Up-to-date: /home/harsh/rover_project/install/mobile_robot/share/ament_index/resource_index/packages/mobile_robot
+[7.548s] -- Up-to-date: /home/harsh/rover_project/install/mobile_robot/share/mobile_robot/cmake/mobile_robotConfig.cmake
+[7.548s] -- Up-to-date: /home/harsh/rover_project/install/mobile_robot/share/mobile_robot/cmake/mobile_robotConfig-version.cmake
+[7.548s] -- Up-to-date: /home/harsh/rover_project/install/mobile_robot/share/mobile_robot/package.xml
+[7.552s] Invoked command in '/home/harsh/rover_project/build/mobile_robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/harsh/rover_project/build/mobile_robot

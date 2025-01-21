@@ -1,0 +1,66 @@
+[0.013s] Invoking command in '/home/harsh/rover_project/build/mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/harsh/rover_project/build/mobile_robot -- -j8 -l8
+[0.078s] [35m[1mConsolidate compiler generated dependencies of target coordinate_input_node[0m
+[0.101s] [ 50%] [32mBuilding CXX object CMakeFiles/coordinate_input_node.dir/src/coordinate_input_node.cpp.o[0m
+[3.082s] [01m[K/home/harsh/rover_project/src/mobile_robot/src/coordinate_input_node.cpp:24:52:[m[K [01;31m[Kerror: [m[K‘[01m[KFloat64MultiArray[m[K’ in namespace ‘[01m[Kstd_msgs::msg[m[K’ does not name a type
+[3.082s]    24 |     void coordinates_callback(const std_msgs::msg::[01;31m[KFloat64MultiArray[m[K::SharedPtr msg)
+[3.082s]       |                                                    [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[3.082s] [01m[K/home/harsh/rover_project/src/mobile_robot/src/coordinate_input_node.cpp:24:81:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kmsg[m[K’
+[3.082s]    24 |     void coordinates_callback(const std_msgs::msg::Float64MultiArray::SharedPtr [01;31m[Kmsg[m[K)
+[3.082s]       |                                                                                 [01;31m[K^~~[m[K
+[3.082s] [01m[K/home/harsh/rover_project/src/mobile_robot/src/coordinate_input_node.cpp:24:80:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kmsg[m[K’
+[3.082s]    24 |     void coordinates_callback[34m[K([m[Kconst std_msgs::msg::Float64MultiArray::SharedPtr[01;31m[K [m[K[32m[Kmsg[m[K)
+[3.082s]       |                              [34m[K~[m[K                                                 [01;31m[K^[m[K[32m[K~~~[m[K
+[3.082s]       |                                                                                [32m[K)[m[K
+[3.083s] [01m[K/home/harsh/rover_project/src/mobile_robot/src/coordinate_input_node.cpp:24:71:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[3.084s]    24 |     void coordinates_callback(const std_msgs::msg::Float64MultiArray::[01;31m[KSharedPtr[m[K msg)
+[3.084s]       |                                                                       [01;31m[K^~~~~~~~~[m[K
+[3.084s]       |                                                                                [32m[K;[m[K
+[3.086s] [01m[K/home/harsh/rover_project/src/mobile_robot/src/coordinate_input_node.cpp:24:81:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ does not name a type
+[3.086s]    24 |     void coordinates_callback(const std_msgs::msg::Float64MultiArray::SharedPtr [01;31m[Kmsg[m[K)
+[3.086s]       |                                                                                 [01;31m[K^~~[m[K
+[3.086s] [01m[K/home/harsh/rover_project/src/mobile_robot/src/coordinate_input_node.cpp:68:41:[m[K [01;31m[Kerror: [m[K‘[01m[KFloat64MultiArray[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[3.086s]    68 |     rclcpp::Subscription<std_msgs::msg::[01;31m[KFloat64MultiArray[m[K>::SharedPtr coordinates_sub_;
+[3.086s]       |                                         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[3.086s] [01m[K/home/harsh/rover_project/src/mobile_robot/src/coordinate_input_node.cpp:68:58:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.086s]    68 |     rclcpp::Subscription<std_msgs::msg::Float64MultiArray[01;31m[K>[m[K::SharedPtr coordinates_sub_;
+[3.086s]       |                                                          [01;31m[K^[m[K
+[3.086s] [01m[K/home/harsh/rover_project/src/mobile_robot/src/coordinate_input_node.cpp:68:58:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[3.086s] [01m[K/home/harsh/rover_project/src/mobile_robot/src/coordinate_input_node.cpp:68:58:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[3.086s] [01m[K/home/harsh/rover_project/src/mobile_robot/src/coordinate_input_node.cpp:68:58:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[3.086s] [01m[K/home/harsh/rover_project/src/mobile_robot/src/coordinate_input_node.cpp:68:61:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[3.087s]    68 |     rclcpp::Subscription<std_msgs::msg::Float64MultiArray>::[01;31m[KSharedPtr[m[K coordinates_sub_;
+[3.087s]       |                                                             [01;31m[K^~~~~~~~~[m[K
+[3.087s]       |                                                                      [32m[K;[m[K
+[3.089s] [01m[K/home/harsh/rover_project/src/mobile_robot/src/coordinate_input_node.cpp:68:71:[m[K [01;31m[Kerror: [m[K‘[01m[Kcoordinates_sub_[m[K’ does not name a type
+[3.089s]    68 |     rclcpp::Subscription<std_msgs::msg::Float64MultiArray>::SharedPtr [01;31m[Kcoordinates_sub_[m[K;
+[3.089s]       |                                                                       [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[3.103s] [01m[K/home/harsh/rover_project/src/mobile_robot/src/coordinate_input_node.cpp:[m[K In constructor ‘[01m[KCoordinateInputNode::CoordinateInputNode()[m[K’:
+[3.103s] [01m[K/home/harsh/rover_project/src/mobile_robot/src/coordinate_input_node.cpp:13:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcoordinates_sub_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcoordinates_callback[m[K’?
+[3.103s]    13 |         [01;31m[Kcoordinates_sub_[m[K = this->create_subscription<std_msgs::msg::Float64MultiArray>(
+[3.103s]       |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[3.103s]       |         [32m[Kcoordinates_callback[m[K
+[3.104s] [01m[K/home/harsh/rover_project/src/mobile_robot/src/coordinate_input_node.cpp:13:69:[m[K [01;31m[Kerror: [m[K‘[01m[KFloat64MultiArray[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[3.104s]    13 |         coordinates_sub_ = this->create_subscription<std_msgs::msg::[01;31m[KFloat64MultiArray[m[K>(
+[3.104s]       |                                                                     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[3.113s] [01m[K/home/harsh/rover_project/src/mobile_robot/src/coordinate_input_node.cpp:13:87:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KCoordinateInputNode::create_subscription<<expression error> >(const char [19], int, std::_Bind_helper<false, void (CoordinateInputNode::*)(...), CoordinateInputNode*, const std::_Placeholder<1>&>::type)[m[K’
+[3.113s]    13 |         coordinates_sub_ = [01;31m[Kthis->create_subscription<std_msgs::msg::Float64MultiArray>([m[K
+[3.113s]       |                            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[3.113s]    14 | [01;31m[K            "/coordinates_input", 10, std::bind(&CoordinateInputNode::coordinates_callback, this, std::placeholders::_1))[m[K;
+[3.113s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.113s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.114s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[3.114s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.114s]                  from [01m[K/home/harsh/rover_project/src/mobile_robot/src/coordinate_input_node.cpp:1[m[K:
+[3.114s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+[3.114s]   219 |   [01;36m[Kcreate_subscription[m[K(
+[3.114s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.114s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.114s] [01m[K/home/harsh/rover_project/src/mobile_robot/src/coordinate_input_node.cpp:13:87:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.114s]    13 |         coordinates_sub_ = [01;31m[Kthis->create_subscription<std_msgs::msg::Float64MultiArray>([m[K
+[3.114s]       |                            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[3.114s]    14 | [01;31m[K            "/coordinates_input", 10, std::bind(&CoordinateInputNode::coordinates_callback, this, std::placeholders::_1))[m[K;
+[3.114s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.142s] gmake[2]: *** [CMakeFiles/coordinate_input_node.dir/build.make:76: CMakeFiles/coordinate_input_node.dir/src/coordinate_input_node.cpp.o] Error 1
+[4.142s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/coordinate_input_node.dir/all] Error 2
+[4.142s] gmake: *** [Makefile:146: all] Error 2
+[4.151s] Invoked command in '/home/harsh/rover_project/build/mobile_robot' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/harsh/rover_project/build/mobile_robot -- -j8 -l8

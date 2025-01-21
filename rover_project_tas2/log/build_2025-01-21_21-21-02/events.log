@@ -1,0 +1,98 @@
+[0.000000] (-) TimerEvent: {}
+[0.000539] (mobile_robot) JobQueued: {'identifier': 'mobile_robot', 'dependencies': OrderedDict()}
+[0.000599] (mobile_robot) JobStarted: {'identifier': 'mobile_robot'}
+[0.009608] (mobile_robot) JobProgress: {'identifier': 'mobile_robot', 'progress': 'cmake'}
+[0.010457] (mobile_robot) JobProgress: {'identifier': 'mobile_robot', 'progress': 'build'}
+[0.013097] (mobile_robot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/harsh/rover_project/build/mobile_robot', '--', '-j8', '-l8'], 'cwd': '/home/harsh/rover_project/build/mobile_robot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'harsh'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/harsh'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3759'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/harsh/rover_project/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'harsh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'harsh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/harsh-virtual-machine:@/tmp/.ICE-unix/1799,unix/harsh-virtual-machine:/tmp/.ICE-unix/1799'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/95377a6f_5693_4f91_8bba_abf50c94fa10'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.IKFF02'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.111'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/harsh/rover_project/install/mobile_robot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/harsh/rover_project/build/mobile_robot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/harsh/rover_project/install/mobile_robot:/opt/ros/humble')]), 'shell': False}
+[0.083209] (mobile_robot) StdoutLine: {'line': b'[ 66%] Built target coordinate_input_node\n'}
+[0.083408] (mobile_robot) StdoutLine: {'line': b'[ 66%] Built target gps_subscriber\n'}
+[0.083464] (mobile_robot) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/rover_control_node.dir/src/rover_control_node.cpp.o\x1b[0m\n'}
+[0.099311] (-) TimerEvent: {}
+[0.200277] (-) TimerEvent: {}
+[0.300864] (-) TimerEvent: {}
+[0.401430] (-) TimerEvent: {}
+[0.503293] (-) TimerEvent: {}
+[0.604365] (-) TimerEvent: {}
+[0.704955] (-) TimerEvent: {}
+[0.805814] (-) TimerEvent: {}
+[0.906853] (-) TimerEvent: {}
+[1.007909] (-) TimerEvent: {}
+[1.109279] (-) TimerEvent: {}
+[1.210108] (-) TimerEvent: {}
+[1.310969] (-) TimerEvent: {}
+[1.411982] (-) TimerEvent: {}
+[1.512939] (-) TimerEvent: {}
+[1.613791] (-) TimerEvent: {}
+[1.714435] (-) TimerEvent: {}
+[1.815266] (-) TimerEvent: {}
+[1.915922] (-) TimerEvent: {}
+[2.016748] (-) TimerEvent: {}
+[2.117692] (-) TimerEvent: {}
+[2.219081] (-) TimerEvent: {}
+[2.320051] (-) TimerEvent: {}
+[2.420952] (-) TimerEvent: {}
+[2.521945] (-) TimerEvent: {}
+[2.622515] (-) TimerEvent: {}
+[2.723160] (-) TimerEvent: {}
+[2.824243] (-) TimerEvent: {}
+[2.925111] (-) TimerEvent: {}
+[3.026079] (-) TimerEvent: {}
+[3.127369] (-) TimerEvent: {}
+[3.229642] (-) TimerEvent: {}
+[3.330923] (-) TimerEvent: {}
+[3.431984] (-) TimerEvent: {}
+[3.533378] (-) TimerEvent: {}
+[3.634474] (-) TimerEvent: {}
+[3.735594] (-) TimerEvent: {}
+[3.836497] (-) TimerEvent: {}
+[3.937908] (-) TimerEvent: {}
+[4.038658] (-) TimerEvent: {}
+[4.139321] (-) TimerEvent: {}
+[4.240102] (-) TimerEvent: {}
+[4.340940] (-) TimerEvent: {}
+[4.441721] (-) TimerEvent: {}
+[4.491775] (mobile_robot) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable rover_control_node\x1b[0m\n'}
+[4.544825] (-) TimerEvent: {}
+[4.645379] (-) TimerEvent: {}
+[4.704032] (mobile_robot) StdoutLine: {'line': b'[100%] Built target rover_control_node\n'}
+[4.720041] (mobile_robot) CommandEnded: {'returncode': 0}
+[4.721045] (mobile_robot) JobProgress: {'identifier': 'mobile_robot', 'progress': 'install'}
+[4.735942] (mobile_robot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/harsh/rover_project/build/mobile_robot'], 'cwd': '/home/harsh/rover_project/build/mobile_robot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'harsh'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/harsh'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3759'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/harsh/rover_project/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'harsh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'harsh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/harsh-virtual-machine:@/tmp/.ICE-unix/1799,unix/harsh-virtual-machine:/tmp/.ICE-unix/1799'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/95377a6f_5693_4f91_8bba_abf50c94fa10'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.IKFF02'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.111'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/harsh/rover_project/install/mobile_robot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/harsh/rover_project/build/mobile_robot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/harsh/rover_project/install/mobile_robot:/opt/ros/humble')]), 'shell': False}
+[4.745202] (mobile_robot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.745410] (-) TimerEvent: {}
+[4.745570] (mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/harsh/rover_project/install/mobile_robot/lib/mobile_robot/coordinate_input_node\n'}
+[4.745700] (mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/harsh/rover_project/install/mobile_robot/lib/mobile_robot/gps_subscriber\n'}
+[4.745779] (mobile_robot) StdoutLine: {'line': b'-- Installing: /home/harsh/rover_project/install/mobile_robot/lib/mobile_robot/rover_control_node\n'}
+[4.746606] (mobile_robot) StdoutLine: {'line': b'-- Set runtime path of "/home/harsh/rover_project/install/mobile_robot/lib/mobile_robot/rover_control_node" to ""\n'}
+[4.746706] (mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/harsh/rover_project/install/mobile_robot/share/mobile_robot/launch\n'}
+[4.746860] (mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/harsh/rover_project/install/mobile_robot/share/mobile_robot/launch/gazebo_launch.py\n'}
+[4.746923] (mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/harsh/rover_project/install/mobile_robot/share/mobile_robot/launch/coordinate_input_launch.py\n'}
+[4.747005] (mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/harsh/rover_project/install/mobile_robot/share/mobile_robot/model\n'}
+[4.747075] (mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/harsh/rover_project/install/mobile_robot/share/mobile_robot/model/rover.xacro\n'}
+[4.747173] (mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/harsh/rover_project/install/mobile_robot/share/mobile_robot/model/rover.gazebo\n'}
+[4.747257] (mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/harsh/rover_project/install/mobile_robot/share/mobile_robot/model/world.world\n'}
+[4.747455] (mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/harsh/rover_project/install/mobile_robot/install/mobile_robot/launch\n'}
+[4.747572] (mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/harsh/rover_project/install/mobile_robot/install/mobile_robot/launch/gazebo_launch.py\n'}
+[4.747643] (mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/harsh/rover_project/install/mobile_robot/install/mobile_robot/launch/coordinate_input_launch.py\n'}
+[4.747793] (mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/harsh/rover_project/install/mobile_robot/install/mobile_robot/model\n'}
+[4.747842] (mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/harsh/rover_project/install/mobile_robot/install/mobile_robot/model/rover.xacro\n'}
+[4.747880] (mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/harsh/rover_project/install/mobile_robot/install/mobile_robot/model/rover.gazebo\n'}
+[4.747916] (mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/harsh/rover_project/install/mobile_robot/install/mobile_robot/model/world.world\n'}
+[4.747950] (mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/harsh/rover_project/install/mobile_robot/share/ament_index/resource_index/package_run_dependencies/mobile_robot\n'}
+[4.748056] (mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/harsh/rover_project/install/mobile_robot/share/ament_index/resource_index/parent_prefix_path/mobile_robot\n'}
+[4.748109] (mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/harsh/rover_project/install/mobile_robot/share/mobile_robot/environment/ament_prefix_path.sh\n'}
+[4.748192] (mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/harsh/rover_project/install/mobile_robot/share/mobile_robot/environment/ament_prefix_path.dsv\n'}
+[4.748236] (mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/harsh/rover_project/install/mobile_robot/share/mobile_robot/environment/path.sh\n'}
+[4.748273] (mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/harsh/rover_project/install/mobile_robot/share/mobile_robot/environment/path.dsv\n'}
+[4.748309] (mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/harsh/rover_project/install/mobile_robot/share/mobile_robot/local_setup.bash\n'}
+[4.748343] (mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/harsh/rover_project/install/mobile_robot/share/mobile_robot/local_setup.sh\n'}
+[4.748375] (mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/harsh/rover_project/install/mobile_robot/share/mobile_robot/local_setup.zsh\n'}
+[4.748408] (mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/harsh/rover_project/install/mobile_robot/share/mobile_robot/local_setup.dsv\n'}
+[4.748451] (mobile_robot) StdoutLine: {'line': b'-- Installing: /home/harsh/rover_project/install/mobile_robot/share/mobile_robot/package.dsv\n'}
+[4.748488] (mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/harsh/rover_project/install/mobile_robot/share/ament_index/resource_index/packages/mobile_robot\n'}
+[4.748524] (mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/harsh/rover_project/install/mobile_robot/share/mobile_robot/cmake/mobile_robotConfig.cmake\n'}
+[4.748557] (mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/harsh/rover_project/install/mobile_robot/share/mobile_robot/cmake/mobile_robotConfig-version.cmake\n'}
+[4.748598] (mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/harsh/rover_project/install/mobile_robot/share/mobile_robot/package.xml\n'}
+[4.752561] (mobile_robot) CommandEnded: {'returncode': 0}
+[4.769231] (mobile_robot) JobEnded: {'identifier': 'mobile_robot', 'rc': 0}
+[4.770279] (-) EventReactorShutdown: {}

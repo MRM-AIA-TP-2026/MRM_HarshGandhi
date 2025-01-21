@@ -1,0 +1,6 @@
+Invoking command in '/home/harsh/rover_project/build/mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/harsh/rover_project/src/mobile_robot -DCMAKE_INSTALL_PREFIX=/home/harsh/rover_project/install/mobile_robot
+Invoked command in '/home/harsh/rover_project/build/mobile_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/harsh/rover_project/src/mobile_robot -DCMAKE_INSTALL_PREFIX=/home/harsh/rover_project/install/mobile_robot
+Invoking command in '/home/harsh/rover_project/build/mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/harsh/rover_project/build/mobile_robot -- -j8 -l8
+Invoked command in '/home/harsh/rover_project/build/mobile_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/harsh/rover_project/build/mobile_robot -- -j8 -l8
+Invoking command in '/home/harsh/rover_project/build/mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/harsh/rover_project/build/mobile_robot
+Invoked command in '/home/harsh/rover_project/build/mobile_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/harsh/rover_project/build/mobile_robot

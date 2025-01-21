@@ -1,0 +1,2 @@
+Invoking command in '/home/harsh/rover_project/build/mobile_robot': /usr/bin/cmake --build /home/harsh/rover_project/build/mobile_robot -- -j8 -l8
+Invoked command in '/home/harsh/rover_project/build/mobile_robot' returned '2': /usr/bin/cmake --build /home/harsh/rover_project/build/mobile_robot -- -j8 -l8

@@ -1,0 +1,7 @@
+[31mCMake Error at CMakeLists.txt:22 (add_executable):
+  add_executable cannot create target "gps_subscriber" because another target
+  with the same name already exists.  The existing target is an executable
+  created in source directory "/home/harsh/rover_project/src/mobile_robot".
+  See documentation for policy CMP0002 for more details.
+
+[0m

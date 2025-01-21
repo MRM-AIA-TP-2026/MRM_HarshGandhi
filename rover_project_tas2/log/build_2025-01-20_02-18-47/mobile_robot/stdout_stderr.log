@@ -1,0 +1,7 @@
+[31mCMake Error at CMakeLists.txt:60:
+  Parse error.  Function missing ending ")".  End of file reached.
+
+[0m
+-- Configuring incomplete, errors occurred!
+See also "/home/harsh/rover_project/build/mobile_robot/CMakeFiles/CMakeOutput.log".
+gmake: *** [Makefile:308: cmake_check_build_system] Error 1

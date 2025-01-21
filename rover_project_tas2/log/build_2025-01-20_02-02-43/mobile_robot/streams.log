@@ -1,0 +1,40 @@
+[0.026s] Invoking command in '/home/harsh/rover_project/build/mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/harsh/rover_project/build/mobile_robot -- -j8 -l8
+[0.106s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.304s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.381s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.386s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.395s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.409s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.428s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.478s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.483s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.727s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.797s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.854s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.965s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.965s] -- Configured cppcheck include dirs: 
+[0.965s] -- Configured cppcheck exclude dirs and/or files: 
+[0.966s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.967s] -- Added test 'lint_cmake' to check CMake code style
+[0.969s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.969s] -- Added test 'uncrustify' to check C / C++ code style
+[0.969s] -- Configured uncrustify additional arguments: 
+[0.971s] -- Added test 'xmllint' to check XML markup files
+[0.973s] -- Configuring done
+[1.006s] -- Generating done
+[1.019s] -- Build files have been written to: /home/harsh/rover_project/build/mobile_robot
+[1.067s] [35m[1mConsolidate compiler generated dependencies of target coordinate_input_node[0m
+[1.068s] [35m[1mConsolidate compiler generated dependencies of target gps_subscriber[0m
+[1.101s] [ 50%] [32mBuilding CXX object CMakeFiles/gps_subscriber.dir/src/gps_subscriber.cpp.o[0m
+[1.102s] [ 50%] [32mBuilding CXX object CMakeFiles/coordinate_input_node.dir/src/coordinate_input_node.cpp.o[0m
+[1.581s] [01m[K/home/harsh/rover_project/src/mobile_robot/src/coordinate_input_node.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/float64.hpp: No such file or directory
+[1.581s]     2 | #include [01;31m[K"std_msgs/msg/float64.hpp"[m[K
+[1.581s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.581s] compilation terminated.
+[1.588s] gmake[2]: *** [CMakeFiles/coordinate_input_node.dir/build.make:76: CMakeFiles/coordinate_input_node.dir/src/coordinate_input_node.cpp.o] Error 1
+[1.588s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/coordinate_input_node.dir/all] Error 2
+[1.588s] gmake[1]: *** Waiting for unfinished jobs....
+[9.928s] [ 75%] [32m[1mLinking CXX executable gps_subscriber[0m
+[10.311s] [ 75%] Built target gps_subscriber
+[10.313s] gmake: *** [Makefile:146: all] Error 2
+[10.317s] Invoked command in '/home/harsh/rover_project/build/mobile_robot' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/harsh/rover_project/build/mobile_robot -- -j8 -l8

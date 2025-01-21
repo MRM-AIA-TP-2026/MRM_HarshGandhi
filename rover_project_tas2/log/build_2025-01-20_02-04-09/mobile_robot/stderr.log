@@ -1,0 +1,7 @@
+[01m[K/home/harsh/rover_project/src/mobile_robot/src/coordinate_input_node.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/float64.hpp: No such file or directory
+    2 | #include [01;31m[K"std_msgs/msg/float64.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/coordinate_input_node.dir/build.make:76: CMakeFiles/coordinate_input_node.dir/src/coordinate_input_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/coordinate_input_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,4 @@
+Invoking command in '/home/harsh/rover_project/build/mobile_robot': /usr/bin/cmake --build /home/harsh/rover_project/build/mobile_robot -- -j2 -l2
+Invoked command in '/home/harsh/rover_project/build/mobile_robot' returned '0': /usr/bin/cmake --build /home/harsh/rover_project/build/mobile_robot -- -j2 -l2
+Invoking command in '/home/harsh/rover_project/build/mobile_robot': /usr/bin/cmake --install /home/harsh/rover_project/build/mobile_robot
+Invoked command in '/home/harsh/rover_project/build/mobile_robot' returned '0': /usr/bin/cmake --install /home/harsh/rover_project/build/mobile_robot

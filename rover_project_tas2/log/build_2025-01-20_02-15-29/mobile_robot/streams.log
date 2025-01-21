@@ -1,0 +1,11 @@
+[0.026s] Invoking command in '/home/harsh/rover_project/build/mobile_robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/harsh/rover_project/build/mobile_robot -- -j8 -l8
+[0.151s] [ 50%] Built target gps_subscriber
+[0.167s] [ 75%] [32mBuilding CXX object CMakeFiles/coordinate_input_node.dir/src/coordinate_input_node.cpp.o[0m
+[1.096s] [01m[K/home/harsh/rover_project/src/mobile_robot/src/coordinate_input_node.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Ksensor_msgs/msg/nav_sat_fix.hpp: No such file or directory
+[1.096s]     2 | #include [01;31m[K"sensor_msgs/msg/nav_sat_fix.hpp"[m[K
+[1.096s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.097s] compilation terminated.
+[1.102s] gmake[2]: *** [CMakeFiles/coordinate_input_node.dir/build.make:76: CMakeFiles/coordinate_input_node.dir/src/coordinate_input_node.cpp.o] Error 1
+[1.103s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/coordinate_input_node.dir/all] Error 2
+[1.103s] gmake: *** [Makefile:146: all] Error 2
+[1.107s] Invoked command in '/home/harsh/rover_project/build/mobile_robot' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/harsh/rover_project/build/mobile_robot -- -j8 -l8
